@@ -1,0 +1,380 @@
+NUK_U
+
+ ======== test get_l2 ========= 
+
+2026-02-10 16:23:38,125; DEBUG; pypromice.pipeline.aws; AWS(config_file=../aws-l0//raw/config/NUK_U.toml, inpath=../aws-l0//raw/NUK_U/, data_issues_repository=../PROMICE-AWS-data-issues, var_file=None, meta_file=None)
+2026-02-10 16:23:38,209; DEBUG; pypromice.pipeline.aws; Source information: {'pypromice': '1.5.1', 'l0_config_file': 'NUK_U.toml:4bdadcfd32851bd1d43433658ee1f333a340ed01', 'l0_data_root': '4bdadcfd32851bd1d43433658ee1f333a340ed01', 'data_issues': 'a469096a07c8232cfb9c3d702402eeec79075bfb'}
+2026-02-10 16:23:38,220; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_v1' for ../aws-l0/raw/NUK_U/NUK_U_2008_raw_timewrong.txt
+2026-02-10 16:23:38,383; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_v1' for ../aws-l0/raw/NUK_U/NUK_U_2008_raw_timewrong.txt
+2026-02-10 16:23:38,436; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2008_raw_timewrong.txt
+2026-02-10 16:23:38,437; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_v1' for ../aws-l0/raw/NUK_U/NUK_U_2009_raw.txt
+2026-02-10 16:23:38,776; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_v1' for ../aws-l0/raw/NUK_U/NUK_U_2009_raw.txt
+2026-02-10 16:23:38,839; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2009_raw.txt
+2026-02-10 16:23:38,879; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2010_1_raw.txt
+2026-02-10 16:23:39,064; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2010_1_raw.txt
+2026-02-10 16:23:39,392; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2010_1_raw.txt
+2026-02-10 16:23:39,392; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_v1' for ../aws-l0/raw/NUK_U/NUK_U_2010_2_raw.txt
+2026-02-10 16:23:39,474; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2010_2_raw.txt
+2026-02-10 16:23:39,483; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_default' for ../aws-l0/raw/NUK_U/NUK_U_2010-2011_raw_transmitted.txt
+2026-02-10 16:23:39,515; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2010-2011_raw_transmitted.txt
+2026-02-10 16:23:40,334; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2011_raw.txt
+2026-02-10 16:23:40,367; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2011_raw.txt
+2026-02-10 16:23:40,463; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2011_raw.txt
+2026-02-10 16:23:40,470; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2012_raw.txt
+2026-02-10 16:23:40,663; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2012_raw.txt
+2026-02-10 16:23:40,940; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2012_raw.txt
+2026-02-10 16:23:40,950; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2013_raw.txt
+2026-02-10 16:23:41,098; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2013_raw.txt
+2026-02-10 16:23:41,326; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2013_raw.txt
+2026-02-10 16:23:42,412; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2014_raw.txt
+2026-02-10 16:23:42,467; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2014_raw.txt
+2026-02-10 16:23:42,593; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2014_raw.txt
+2026-02-10 16:23:42,599; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2015_raw.txt
+2026-02-10 16:23:42,769; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2015_raw.txt
+2026-02-10 16:23:43,000; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2015_raw.txt
+2026-02-10 16:23:43,005; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2017_raw.txt
+2026-02-10 16:23:43,410; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2017_raw.txt
+2026-02-10 16:23:44,155; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2017_raw.txt
+2026-02-10 16:23:44,162; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2018_raw.txt
+2026-02-10 16:23:44,392; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2018_raw.txt
+2026-02-10 16:23:44,711; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2018_raw.txt
+2026-02-10 16:23:44,718; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2019_raw.txt
+2026-02-10 16:23:44,880; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2019_raw.txt
+2026-02-10 16:23:45,180; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2019_raw.txt
+2026-02-10 16:23:45,186; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2020_raw.txt
+2026-02-10 16:23:45,333; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2020_raw.txt
+2026-02-10 16:23:45,574; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2020_raw.txt
+2026-02-10 16:23:45,581; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2021_raw.txt
+2026-02-10 16:23:45,726; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2021_raw.txt
+2026-02-10 16:23:45,969; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2021_raw.txt
+2026-02-10 16:23:45,975; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2023_raw.txt
+2026-02-10 16:23:46,205; INFO; pypromice.io.ingest.l0; Detected L0 file type 'toa5' for ../aws-l0/raw/NUK_U/NUK_U_2023_raw.txt
+2026-02-10 16:23:46,669; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_U_2023_raw.txt
+2026-02-10 16:23:46,759; INFO; pypromice.pipeline.aws; Level 1 processing...
+2026-02-10 16:24:31,395; INFO; pypromice.pipeline.aws; Level 2 processing...
+2026-02-10 16:24:51,073; DEBUG; pypromice.core.qc.persistence; Running persistence_qc using {'t_i': {'max_diff': 0.0001, 'period': 2}, 't_u': {'max_diff': 0.0001, 'period': 2}, 't_l': {'max_diff': 0.0001, 'period': 2}, 'p_i': {'max_diff': 0.0001, 'period': 3}, 'p_u': {'max_diff': 0.0001, 'period': 150}, 'p_l': {'max_diff': 0.0001, 'period': 150}, 'gps_lat_lon': {'max_diff': 1e-06, 'period': 6}, 'gps_alt': {'max_diff': 0.0001, 'period': 6}, 't_rad': {'max_diff': 0.0001, 'period': 2}, 'rh_i': {'max_diff': 0.0001, 'period': 2}, 'rh_u': {'max_diff': 0.0001, 'period': 2}, 'rh_l': {'max_diff': 0.0001, 'period': 2}, 'wspd_i': {'max_diff': 0.0001, 'period': 6}, 'wspd_u': {'max_diff': 0.0001, 'period': 6}, 'wspd_l': {'max_diff': 0.0001, 'period': 6}}
+2026-02-10 16:24:59,681; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_u (tol=1.0, factor=2.0): filtering 35/642784
+2026-02-10 16:25:07,602; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_u (tol=1.0, factor=2.0): filtering 3/642784
+2026-02-10 16:25:08,366; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_u (tol=3.0, factor=2.2): filtering 129/642784
+2026-02-10 16:25:16,361; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_u (tol=3.0, factor=2.2): filtering 4/642784
+2026-02-10 16:25:17,332; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on rh_u (tol=2.0, factor=3.5): filtering 32/642784
+2026-02-10 16:25:25,868; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on rh_u (tol=2.0, factor=3.5): filtering 6/642784
+2026-02-10 16:25:26,663; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_u (tol=0.5, factor=2.0): filtering 318/642784
+2026-02-10 16:25:34,666; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_u (tol=0.5, factor=2.0): filtering 154/642784
+2026-02-10 16:25:35,326; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_1 (tol=0.5, factor=1.5): filtering 377/642784
+2026-02-10 16:25:43,241; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_1 (tol=0.5, factor=1.5): filtering 92/642784
+2026-02-10 16:25:43,956; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_2 (tol=0.5, factor=1.5): filtering 292/642784
+2026-02-10 16:25:51,874; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_2 (tol=0.5, factor=1.5): filtering 75/642784
+2026-02-10 16:25:52,534; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_3 (tol=0.5, factor=1.5): filtering 191/642784
+2026-02-10 16:26:00,345; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_3 (tol=0.5, factor=1.5): filtering 39/642784
+2026-02-10 16:26:01,031; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_4 (tol=0.5, factor=1.5): filtering 152/642784
+2026-02-10 16:26:08,921; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_4 (tol=0.5, factor=1.5): filtering 23/642784
+2026-02-10 16:26:09,604; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_5 (tol=0.5, factor=1.5): filtering 144/642784
+2026-02-10 16:26:17,530; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_5 (tol=0.5, factor=1.5): filtering 15/642784
+2026-02-10 16:26:18,236; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_6 (tol=0.5, factor=1.5): filtering 126/642784
+2026-02-10 16:26:26,223; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_6 (tol=0.5, factor=1.5): filtering 23/642784
+2026-02-10 16:26:26,870; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_7 (tol=0.5, factor=1.5): filtering 227/642784
+2026-02-10 16:26:34,755; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_7 (tol=0.5, factor=1.5): filtering 53/642784
+2026-02-10 16:26:35,442; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_8 (tol=0.5, factor=1.5): filtering 26/642784
+2026-02-10 16:26:43,326; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_8 (tol=0.5, factor=1.5): filtering 1/642784
+2026-02-10 16:26:43,424; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_i (tol=1.0, factor=2.0): filtering 0/642784
+2026-02-10 16:26:50,790; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i (tol=3.0, factor=2.2): filtering 0/642784
+2026-02-10 16:26:58,131; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on rh_i (tol=2.0, factor=3.5): filtering 0/642784
+2026-02-10 16:27:05,633; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_i (tol=0.5, factor=2.0): filtering 0/642784
+2026-02-10 16:27:20,277; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_U.csv
+2026-02-10 16:27:31,444; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/flags/NUK_U.csv
+2026-02-10 16:27:31,497; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-10-05 00:00:00 2008-10-07 00:00:00 dlr with RIME, flagged 97/642784
+2026-02-10 16:27:31,506; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-10-05 00:00:00 2008-10-07 00:00:00 ulr with RIME, flagged 97/642784
+2026-02-10 16:27:31,513; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-10-05 00:00:00 2008-10-07 00:00:00 dsr with RIME, flagged 97/642784
+2026-02-10 16:27:31,520; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-10-05 00:00:00 2008-10-07 00:00:00 usr with RIME, flagged 97/642784
+2026-02-10 16:27:31,528; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-01-14 00:00:00 2010-01-16 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,532; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-01-14 00:00:00 2010-01-16 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,536; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-01-14 00:00:00 2010-01-16 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,541; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-01-14 00:00:00 2010-01-16 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,547; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-07-25 00:00:00 2010-07-27 00:00:00 dlr with RIME, flagged 157/642784
+2026-02-10 16:27:31,551; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-07-25 00:00:00 2010-07-27 00:00:00 ulr with RIME, flagged 157/642784
+2026-02-10 16:27:31,556; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-07-25 00:00:00 2010-07-27 00:00:00 dsr with RIME, flagged 157/642784
+2026-02-10 16:27:31,560; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-07-25 00:00:00 2010-07-27 00:00:00 usr with RIME, flagged 157/642784
+2026-02-10 16:27:31,565; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-04-10 00:00:00 2011-06-11 00:00:00 dlr with RIME, flagged 4256/642784
+2026-02-10 16:27:31,569; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-04-10 00:00:00 2011-06-11 00:00:00 ulr with RIME, flagged 4256/642784
+2026-02-10 16:27:31,574; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-04-10 00:00:00 2011-06-11 00:00:00 dsr with RIME, flagged 4256/642784
+2026-02-10 16:27:31,578; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-04-10 00:00:00 2011-06-11 00:00:00 usr with RIME, flagged 4256/642784
+2026-02-10 16:27:31,583; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-06-22 00:00:00 2011-06-24 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,587; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-06-22 00:00:00 2011-06-24 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,591; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-06-22 00:00:00 2011-06-24 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,595; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-06-22 00:00:00 2011-06-24 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,600; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-08-14 00:00:00 2011-08-24 00:00:00 dlr with RIME, flagged 1427/642784
+2026-02-10 16:27:31,604; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-08-14 00:00:00 2011-08-24 00:00:00 ulr with RIME, flagged 1427/642784
+2026-02-10 16:27:31,608; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-08-14 00:00:00 2011-08-24 00:00:00 dsr with RIME, flagged 1427/642784
+2026-02-10 16:27:31,613; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-08-14 00:00:00 2011-08-24 00:00:00 usr with RIME, flagged 1427/642784
+2026-02-10 16:27:31,617; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-07 00:00:00 2012-03-09 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,621; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-07 00:00:00 2012-03-09 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,626; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-07 00:00:00 2012-03-09 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,630; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-07 00:00:00 2012-03-09 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,635; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-18 00:00:00 2012-03-20 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,639; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-18 00:00:00 2012-03-20 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,643; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-18 00:00:00 2012-03-20 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,647; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-03-18 00:00:00 2012-03-20 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,652; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-01-10 00:00:00 2013-01-13 00:00:00 dlr with RIME, flagged 433/642784
+2026-02-10 16:27:31,656; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-01-10 00:00:00 2013-01-13 00:00:00 ulr with RIME, flagged 433/642784
+2026-02-10 16:27:31,660; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-01-10 00:00:00 2013-01-13 00:00:00 dsr with RIME, flagged 433/642784
+2026-02-10 16:27:31,664; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-01-10 00:00:00 2013-01-13 00:00:00 usr with RIME, flagged 433/642784
+2026-02-10 16:27:31,669; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-11-05 00:00:00 2013-11-07 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,673; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-11-05 00:00:00 2013-11-07 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,677; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-11-05 00:00:00 2013-11-07 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,682; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2013-11-05 00:00:00 2013-11-07 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,686; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-01 00:00:00 2015-03-03 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,691; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-01 00:00:00 2015-03-03 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,695; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-01 00:00:00 2015-03-03 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,699; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-01 00:00:00 2015-03-03 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,704; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-06 00:00:00 2015-03-11 00:00:00 dlr with RIME, flagged 721/642784
+2026-02-10 16:27:31,708; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-06 00:00:00 2015-03-11 00:00:00 ulr with RIME, flagged 721/642784
+2026-02-10 16:27:31,712; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-06 00:00:00 2015-03-11 00:00:00 dsr with RIME, flagged 721/642784
+2026-02-10 16:27:31,716; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-03-06 00:00:00 2015-03-11 00:00:00 usr with RIME, flagged 721/642784
+2026-02-10 16:27:31,721; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-10-27 00:00:00 2015-10-30 00:00:00 dlr with RIME, flagged 433/642784
+2026-02-10 16:27:31,725; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-10-27 00:00:00 2015-10-30 00:00:00 ulr with RIME, flagged 433/642784
+2026-02-10 16:27:31,729; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-10-27 00:00:00 2015-10-30 00:00:00 dsr with RIME, flagged 433/642784
+2026-02-10 16:27:31,733; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-10-27 00:00:00 2015-10-30 00:00:00 usr with RIME, flagged 433/642784
+2026-02-10 16:27:31,738; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-12-21 00:00:00 2015-12-23 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,742; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-12-21 00:00:00 2015-12-23 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,746; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-12-21 00:00:00 2015-12-23 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,750; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2015-12-21 00:00:00 2015-12-23 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,755; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-01-24 00:00:00 2016-01-28 00:00:00 dlr with RIME, flagged 577/642784
+2026-02-10 16:27:31,759; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-01-24 00:00:00 2016-01-28 00:00:00 ulr with RIME, flagged 577/642784
+2026-02-10 16:27:31,763; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-01-24 00:00:00 2016-01-28 00:00:00 dsr with RIME, flagged 577/642784
+2026-02-10 16:27:31,767; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-01-24 00:00:00 2016-01-28 00:00:00 usr with RIME, flagged 577/642784
+2026-02-10 16:27:31,772; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-03-28 00:00:00 2016-04-02 00:00:00 dlr with RIME, flagged 721/642784
+2026-02-10 16:27:31,776; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-03-28 00:00:00 2016-04-02 00:00:00 ulr with RIME, flagged 721/642784
+2026-02-10 16:27:31,780; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-03-28 00:00:00 2016-04-02 00:00:00 dsr with RIME, flagged 721/642784
+2026-02-10 16:27:31,784; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-03-28 00:00:00 2016-04-02 00:00:00 usr with RIME, flagged 721/642784
+2026-02-10 16:27:31,789; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2017-09-23 00:00:00 2017-09-25 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,793; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2017-09-23 00:00:00 2017-09-25 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,797; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2017-09-23 00:00:00 2017-09-25 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,802; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2017-09-23 00:00:00 2017-09-25 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,806; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-01-14 00:00:00 2018-01-17 00:00:00 dlr with RIME, flagged 433/642784
+2026-02-10 16:27:31,810; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-01-14 00:00:00 2018-01-17 00:00:00 ulr with RIME, flagged 433/642784
+2026-02-10 16:27:31,815; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-01-14 00:00:00 2018-01-17 00:00:00 dsr with RIME, flagged 433/642784
+2026-02-10 16:27:31,819; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-01-14 00:00:00 2018-01-17 00:00:00 usr with RIME, flagged 433/642784
+2026-02-10 16:27:31,823; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-12-07 00:00:00 2018-12-09 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,828; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-12-07 00:00:00 2018-12-09 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,832; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-12-07 00:00:00 2018-12-09 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,836; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2018-12-07 00:00:00 2018-12-09 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,841; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-02-16 00:00:00 2022-02-27 00:00:00 dlr with RIME, flagged 1585/642784
+2026-02-10 16:27:31,845; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-02-16 00:00:00 2022-02-27 00:00:00 ulr with RIME, flagged 1585/642784
+2026-02-10 16:27:31,849; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-02-16 00:00:00 2022-02-27 00:00:00 dsr with RIME, flagged 1585/642784
+2026-02-10 16:27:31,853; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-02-16 00:00:00 2022-02-27 00:00:00 usr with RIME, flagged 1585/642784
+2026-02-10 16:27:31,858; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-04-14 00:00:00 2022-04-16 00:00:00 dlr with RIME, flagged 289/642784
+2026-02-10 16:27:31,862; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-04-14 00:00:00 2022-04-16 00:00:00 ulr with RIME, flagged 289/642784
+2026-02-10 16:27:31,866; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-04-14 00:00:00 2022-04-16 00:00:00 dsr with RIME, flagged 289/642784
+2026-02-10 16:27:31,871; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2022-04-14 00:00:00 2022-04-16 00:00:00 usr with RIME, flagged 289/642784
+2026-02-10 16:27:31,876; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-10-28 00:00:00 2011-06-09 00:00:00 dsr with NAN, flagged 4046/642784
+2026-02-10 16:27:31,880; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-10-28 00:00:00 2011-06-09 00:00:00 usr with NAN, flagged 4046/642784
+2026-02-10 16:27:31,885; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_1 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,893; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_2 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,900; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_3 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,909; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_4 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,917; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_5 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,926; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_6 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,934; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_7 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,944; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-08-01 00:00:00 2013-08-01 00:00:00 t_i_7 with NAN, flagged 52528/642784
+2026-02-10 16:27:31,949; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2008-08-01 00:00:00 2009-01-01 00:00:00 t_i_8 with NAN, flagged 6467/642784
+2026-02-10 16:27:31,963; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2019-05-23 00:00:00 2021-09-01 00:00:00 ulr with NAN, flagged 119802/642784
+2026-02-10 16:27:31,964; DEBUG; pypromice.core.qc.github_data_issues; ---> could not flag t_surf not in dataset
+2026-02-10 16:27:31,969; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-10-01 00:00:00 2011-08-23 20:00:00 wspd_u with NAN, flagged 15163/642784
+2026-02-10 16:27:31,978; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2021-10-08 00:00:00 2022-08-19 12:00:00 wspd_u with NAN, flagged 45433/642784
+2026-02-10 16:27:31,985; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2021-10-08 00:00:00 2022-08-19 12:00:00 wspd_i with NAN, flagged 45433/642784
+2026-02-10 16:27:31,992; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-05-01 00:00:00 2011-06-11 00:00:00 z_boom_u with CHECKME, flagged 3794/642784
+2026-02-10 16:27:32,000; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2010-06-22 00:00:00 2011-05-01 00:00:00 z_pt_cor with CHECKME, flagged 5638/642784
+2026-02-10 16:27:32,008; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-10-02 00:00:00 2011-10-27 00:00:00 z_pt_cor with CHECKME, flagged 3601/642784
+2026-02-10 16:27:32,012; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2012-10-22 00:00:00 2012-10-27 00:00:00 z_pt_cor with CHECKME, flagged 721/642784
+2026-02-10 16:27:32,017; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2014-02-09 00:00:00 2014-04-10 00:00:00 z_pt_cor with CHECKME, flagged 73/642784
+2026-02-10 16:27:32,023; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2016-09-21 00:00:00 2016-10-26 00:00:00 z_pt_cor with CHECKME, flagged 5041/642784
+2026-02-10 16:27:32,028; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2011-06-15 00:00:00 2011-08-24 00:00:00 z_stake with CHECKME, flagged 10067/642784
+2026-02-10 16:27:32,036; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2014-12-05 00:00:00 2015-04-06 00:00:00 z_stake with CHECKME, flagged 17569/642784
+2026-02-10 16:27:32,043; DEBUG; pypromice.core.qc.github_data_issues; ---> flagging 2020-11-03 00:00:00 2021-09-11 00:00:00 z_stake with CHECKME, flagged 44927/642784
+2026-02-10 16:27:44,253; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_U.csv
+2026-02-10 16:27:44,298; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_alt max_filter 1200.0 flagged 24/642784
+2026-02-10 16:27:44,332; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_alt min_filter 1040.0 flagged 1680/642784
+2026-02-10 16:27:44,364; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_lat max_filter 64.6 flagged 12/642784
+2026-02-10 16:27:44,396; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_lat min_filter 64.4 flagged 10/642784
+2026-02-10 16:27:44,431; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_lon max_filter 49.5 flagged 59/642784
+2026-02-10 16:27:44,466; DEBUG; pypromice.core.qc.github_data_issues; ---> None None gps_lon min_filter 49.255 flagged 102/642784
+2026-02-10 16:27:44,499; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_1 min_filter -20.0 flagged 32/642784
+2026-02-10 16:27:44,532; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_2 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,564; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_3 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,600; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_4 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,637; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_5 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,673; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_6 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,705; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_7 min_filter -20.0 flagged 6381/642784
+2026-02-10 16:27:44,737; DEBUG; pypromice.core.qc.github_data_issues; ---> None None t_i_8 min_filter -20.0 flagged 0/642784
+2026-02-10 16:27:44,770; DEBUG; pypromice.core.qc.github_data_issues; ---> None None wspd_u max_filter 50.0 flagged 0/642784
+2026-02-10 16:27:44,804; DEBUG; pypromice.core.qc.github_data_issues; ---> None None z_boom_cor_u max_filter 2.8 flagged 12539/642784
+2026-02-10 16:27:44,807; INFO; pypromice.core.qc.github_data_issues; could not adjust z_ice_surf not in dataset
+2026-02-10 16:27:44,807; INFO; pypromice.core.qc.github_data_issues; could not adjust z_surf_2 not in dataset
+2026-02-10 16:28:13,765; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:28:21,994; INFO; pypromice.io.write; Resampling to 10min
+2026-02-10 16:28:22,675; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:28:45,310; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_10min.csv
+2026-02-10 16:28:45,310; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_10min.nc
+2026-02-10 16:28:46,697; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:28:50,801; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:28:50,965; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:28:56,478; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_hour.csv
+2026-02-10 16:28:56,478; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_hour.nc
+
+ ======== test join_l2 ========= 
+
+2026-02-10 16:28:58,657; INFO; pypromice.pipeline.join_l2; NUK_U array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_hour.nc
+2026-02-10 16:28:58,657; INFO; pypromice.pipeline.join_l2; Only one file found /media/ice/Baptiste/geussnow01/aws-dev/L2_test/raw/NUK_U/NUK_U_hour.nc...
+2026-02-10 16:28:58,855; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:29:05,193; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_U/NUK_U_hour.csv
+2026-02-10 16:29:05,193; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_U/NUK_U_hour.nc
+2026-02-10 16:29:05,193; INFO; pypromice.pipeline.join_l2; Files saved to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_U...
+
+ ======== test l2tol3 ========= 
+
+2026-02-10 16:29:05,847; WARNING; root; data_issues_path is missing. Using default data issues path: ../PROMICE-AWS-data-issues
+2026-02-10 16:29:09,207; INFO; pypromice.pipeline.L2toL3; processing gps_lat with relocation on 2013-07-23T00:00:00
+2026-02-10 16:29:09,215; INFO; pypromice.pipeline.L2toL3; processing gps_lon with relocation on 2013-07-23T00:00:00
+2026-02-10 16:29:09,222; INFO; pypromice.pipeline.L2toL3; processing gps_alt with relocation on 2013-07-23T00:00:00
+2026-02-10 16:29:09,252; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_U.csv
+2026-02-10 16:29:09,266; DEBUG; pypromice.core.qc.github_data_issues; ---> 2010-07-23 00:00:00 None z_ice_surf add -2.6
+2026-02-10 16:29:09,267; DEBUG; pypromice.core.qc.github_data_issues; ---> 2010-07-24 00:00:00 None z_ice_surf add -7.8
+2026-02-10 16:29:09,268; DEBUG; pypromice.core.qc.github_data_issues; ---> 2011-04-01 00:00:00 None z_ice_surf add 1.6
+2026-02-10 16:29:09,268; DEBUG; pypromice.core.qc.github_data_issues; ---> 2011-08-24 00:00:00 None z_ice_surf add -1.65
+2026-02-10 16:29:09,269; DEBUG; pypromice.core.qc.github_data_issues; ---> 2013-07-21 00:00:00 None z_ice_surf add -2.0
+2026-02-10 16:29:09,270; DEBUG; pypromice.core.qc.github_data_issues; ---> 2013-07-22 00:00:00 None z_ice_surf add -5.8
+2026-02-10 16:29:09,270; DEBUG; pypromice.core.qc.github_data_issues; ---> 2018-07-31 00:00:00 None z_ice_surf add -8.7
+2026-02-10 16:29:09,272; DEBUG; pypromice.core.qc.github_data_issues; ---> 2010-07-23 18:00:00 None z_surf_2 add -1.5
+2026-02-10 16:29:09,273; DEBUG; pypromice.core.qc.github_data_issues; ---> 2010-07-27 18:00:00 None z_surf_2 add 1.5
+2026-02-10 16:29:09,273; DEBUG; pypromice.core.qc.github_data_issues; ---> 2011-06-15 00:00:00 None z_surf_2 add -1.0
+2026-02-10 16:29:09,274; DEBUG; pypromice.core.qc.github_data_issues; ---> 2011-08-23 00:00:00 None z_surf_2 add -1.0
+2026-02-10 16:29:09,274; DEBUG; pypromice.core.qc.github_data_issues; ---> 2012-08-27 00:00:00 None z_surf_2 add -4.0
+2026-02-10 16:29:09,275; DEBUG; pypromice.core.qc.github_data_issues; ---> 2017-07-04 00:00:00 None z_surf_2 add -2.5
+2026-02-10 16:29:09,276; DEBUG; pypromice.core.qc.github_data_issues; ---> 2018-07-29 00:00:00 None z_surf_2 add -2.0
+2026-02-10 16:29:09,276; DEBUG; pypromice.core.qc.github_data_issues; ---> 2019-09-18 15:00:00 None z_surf_2 add -3.0
+2026-02-10 16:29:09,277; INFO; pypromice.pipeline.L2toL3; Combining surface height
+2026-02-10 16:29:09,278; INFO; pypromice.pipeline.L2toL3; -> ablation site
+2026-02-10 16:29:09,707; DEBUG; pypromice.pipeline.L2toL3; -> estimating ablation period for each year
+2026-02-10 16:29:09,712; DEBUG; pypromice.pipeline.L2toL3; 2007 derived from z_ice_surf
+2026-02-10 16:29:09,718; DEBUG; pypromice.pipeline.L2toL3; 2008 derived from z_ice_surf
+2026-02-10 16:29:09,723; DEBUG; pypromice.pipeline.L2toL3; 2009 derived from z_ice_surf
+2026-02-10 16:29:09,728; DEBUG; pypromice.pipeline.L2toL3; 2010 derived from z_ice_surf
+2026-02-10 16:29:09,733; DEBUG; pypromice.pipeline.L2toL3; 2011 derived from z_ice_surf
+2026-02-10 16:29:09,739; DEBUG; pypromice.pipeline.L2toL3; 2012 derived from z_ice_surf
+2026-02-10 16:29:09,744; DEBUG; pypromice.pipeline.L2toL3; 2013 derived from z_ice_surf
+2026-02-10 16:29:09,749; DEBUG; pypromice.pipeline.L2toL3; 2014 derived from z_ice_surf
+2026-02-10 16:29:09,754; DEBUG; pypromice.pipeline.L2toL3; 2015 derived from z_ice_surf
+2026-02-10 16:29:09,760; DEBUG; pypromice.pipeline.L2toL3; 2016 derived from z_ice_surf
+2026-02-10 16:29:09,765; DEBUG; pypromice.pipeline.L2toL3; 2017 derived from z_ice_surf
+2026-02-10 16:29:09,770; DEBUG; pypromice.pipeline.L2toL3; 2018 derived from z_ice_surf
+2026-02-10 16:29:09,775; DEBUG; pypromice.pipeline.L2toL3; 2019 derived from z_ice_surf
+2026-02-10 16:29:09,781; DEBUG; pypromice.pipeline.L2toL3; 2020 derived from z_ice_surf
+2026-02-10 16:29:09,786; DEBUG; pypromice.pipeline.L2toL3; 2021 derived from z_ice_surf
+2026-02-10 16:29:09,791; DEBUG; pypromice.pipeline.L2toL3; 2022 derived from z_ice_surf
+2026-02-10 16:29:09,797; DEBUG; pypromice.pipeline.L2toL3; 2023 derived from z_ice_surf
+2026-02-10 16:29:09,797; DEBUG; pypromice.pipeline.L2toL3; 2007: Ablation from 2007-08-30 22:00:00 to 2007-09-01 10:00:00
+2026-02-10 16:29:09,804; DEBUG; pypromice.pipeline.L2toL3; adjusting z to hs1
+2026-02-10 16:29:09,805; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,805; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,806; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,807; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,808; DEBUG; pypromice.pipeline.L2toL3; 2008: Ablation from 2008-07-24 20:00:00 to 2008-08-29 15:00:00
+2026-02-10 16:29:09,812; DEBUG; pypromice.pipeline.L2toL3; adjusting z to hs1
+2026-02-10 16:29:09,813; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,813; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,814; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,815; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,816; DEBUG; pypromice.pipeline.L2toL3; 2009: Ablation from 2009-08-13 16:00:00 to 2009-09-03 16:00:00
+2026-02-10 16:29:09,820; DEBUG; pypromice.pipeline.L2toL3; adjusting z to hs1
+2026-02-10 16:29:09,820; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,820; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,822; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,822; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,823; DEBUG; pypromice.pipeline.L2toL3; 2010: Ablation from 2010-06-04 00:00:00 to 2010-06-24 08:00:00
+2026-02-10 16:29:09,828; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,828; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,830; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,830; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,831; DEBUG; pypromice.pipeline.L2toL3; 2011: Ablation from 2011-06-06 06:00:00 to 2011-09-09 04:00:00
+2026-02-10 16:29:09,836; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,836; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,838; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,838; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,839; DEBUG; pypromice.pipeline.L2toL3; 2012: Ablation from 2012-06-04 00:00:00 to 2012-09-11 01:00:00
+2026-02-10 16:29:09,844; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,844; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,845; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,846; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,847; DEBUG; pypromice.pipeline.L2toL3; 2013: Ablation from 2013-06-04 00:00:00 to 2013-08-25 11:00:00
+2026-02-10 16:29:09,851; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,851; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,853; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,853; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,854; DEBUG; pypromice.pipeline.L2toL3; 2014: Ablation from 2014-07-14 18:00:00 to 2014-09-12 12:00:00
+2026-02-10 16:29:09,858; DEBUG; pypromice.pipeline.L2toL3; adjusting z to hs1
+2026-02-10 16:29:09,859; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,859; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,861; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,861; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,862; DEBUG; pypromice.pipeline.L2toL3; 2015: Ablation from 2015-06-12 15:00:00 to 2015-08-06 10:00:00
+2026-02-10 16:29:09,867; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,867; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,868; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,868; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,870; DEBUG; pypromice.pipeline.L2toL3; 2016: Ablation from 2016-06-05 22:00:00 to 2016-09-06 22:00:00
+2026-02-10 16:29:09,874; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,874; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,876; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,876; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,877; DEBUG; pypromice.pipeline.L2toL3; 2017: Ablation from 2017-07-20 19:00:00 to 2017-09-30 23:00:00
+2026-02-10 16:29:09,881; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,882; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,883; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,883; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,884; DEBUG; pypromice.pipeline.L2toL3; 2018: Ablation from 2018-06-07 01:00:00 to 2018-09-30 23:00:00
+2026-02-10 16:29:09,889; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,889; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,890; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,891; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,892; DEBUG; pypromice.pipeline.L2toL3; 2019: Ablation from 2019-06-04 00:00:00 to 2019-09-05 09:00:00
+2026-02-10 16:29:09,896; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,896; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,898; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,898; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,899; DEBUG; pypromice.pipeline.L2toL3; 2020: Ablation from 2020-06-22 16:00:00 to 2020-09-12 09:00:00
+2026-02-10 16:29:09,904; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,904; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,905; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,905; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,907; DEBUG; pypromice.pipeline.L2toL3; 2021: Ablation from 2021-07-08 07:00:00 to 2021-09-07 19:00:00
+2026-02-10 16:29:09,911; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,911; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,913; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,913; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,914; DEBUG; pypromice.pipeline.L2toL3; 2022: Ablation from 2022-06-25 04:00:00 to 2022-09-30 23:00:00
+2026-02-10 16:29:09,919; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,919; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,920; DEBUG; pypromice.pipeline.L2toL3; adjusting hs1
+2026-02-10 16:29:09,920; DEBUG; pypromice.pipeline.L2toL3; to hs2, minimizing winter difference
+2026-02-10 16:29:09,922; DEBUG; pypromice.pipeline.L2toL3; 2023: Ablation from 2023-06-19 04:00:00 to 2023-08-05 20:00:00
+2026-02-10 16:29:09,926; DEBUG; pypromice.pipeline.L2toL3; adjusting hs2 to z
+2026-02-10 16:29:09,926; DEBUG; pypromice.pipeline.L2toL3; using end of melt season
+2026-02-10 16:29:09,980; INFO; pypromice.pipeline.L2toL3; surface height combination finished
+2026-02-10 16:29:10,059; INFO; pypromice.pipeline.L2toL3; Calculating thermistor depth
+2026-02-10 16:29:10,224; INFO; pypromice.pipeline.L2toL3; interpolating 10 m firn/ice temperature (on hourly values)
+2026-02-10 16:29:21,245; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:29:21,818; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:29:22,022; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:29:29,242; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_hour.csv
+2026-02-10 16:29:29,243; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_hour.nc
+2026-02-10 16:29:29,255; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:29:29,595; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:29:29,758; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:29:30,900; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_day.csv
+2026-02-10 16:29:30,900; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_day.nc
+2026-02-10 16:29:30,917; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:29:31,299; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:29:31,458; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:29:32,004; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_month.csv
+2026-02-10 16:29:32,004; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_U/NUK_U_month.nc

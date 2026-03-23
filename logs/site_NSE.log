@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+NSE
+NASA-SE array loaded from ../GC-Net-level-1-data-processing/L1/hourly/NASA-SE.csv
+NSE array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NSE/NSE_hour.nc
+2026-02-10 16:59:45,429; INFO; pypromice.pipeline.join_l3; joining NSE NASA-SE
+2026-02-10 16:59:45,887; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:47,602; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:59:48,003; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:58,856; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_hour.csv
+2026-02-10 16:59:58,856; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_hour.nc
+2026-02-10 16:59:58,880; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:59,275; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:59:59,438; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:00,019; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_day.csv
+2026-02-10 17:00:00,019; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_day.nc
+2026-02-10 17:00:00,043; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:00,443; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:00:00,577; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:00,766; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_month.csv
+2026-02-10 17:00:00,766; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NSE/NSE_month.nc

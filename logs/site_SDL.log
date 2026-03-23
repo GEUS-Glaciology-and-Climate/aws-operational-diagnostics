@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+SDL
+Saddle array loaded from ../GC-Net-level-1-data-processing/L1/hourly/Saddle.csv
+SDL array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/SDL/SDL_hour.nc
+2026-02-10 17:00:31,865; INFO; pypromice.pipeline.join_l3; joining SDL Saddle
+2026-02-10 17:00:32,195; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:33,801; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:00:34,747; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:46,852; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_hour.csv
+2026-02-10 17:00:46,852; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_hour.nc
+2026-02-10 17:00:46,881; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:47,344; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:00:47,497; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:48,265; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_day.csv
+2026-02-10 17:00:48,265; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_day.nc
+2026-02-10 17:00:48,298; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:48,927; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:00:49,125; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:49,335; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_month.csv
+2026-02-10 17:00:49,335; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDL/SDL_month.nc

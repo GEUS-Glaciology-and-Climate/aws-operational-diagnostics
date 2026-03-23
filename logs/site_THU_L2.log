@@ -1,0 +1,20 @@
+ ======== test join_l3 ========= 
+
+THU_L2
+THU_L2 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/THU_L2/THU_L2_hour.nc
+2026-02-10 17:01:19,269; INFO; pypromice.pipeline.join_l3; joining THU_L2
+2026-02-10 17:01:19,335; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:19,572; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:01:19,814; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:24,895; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_hour.csv
+2026-02-10 17:01:24,896; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_hour.nc
+2026-02-10 17:01:24,908; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:25,010; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:01:25,201; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:25,980; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_day.csv
+2026-02-10 17:01:25,980; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_day.nc
+2026-02-10 17:01:25,991; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:26,110; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:01:26,303; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:26,798; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_month.csv
+2026-02-10 17:01:26,799; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_L2/THU_L2_month.nc

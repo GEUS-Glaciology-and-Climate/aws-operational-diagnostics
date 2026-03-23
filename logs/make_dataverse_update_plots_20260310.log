@@ -1,0 +1,18 @@
+[1/4] Run thredds_download.py
+Traceback (most recent call last):
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 72, in <module>
+    main(time_resolution=t,
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 41, in main
+    download_file(metadata_url, metadata_path)
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 10, in download_file
+    with open(save_path, 'wb') as file:
+BlockingIOError: [Errno 11] Resource temporarily unavailable: 'metadata/AWS_sites_metadata.csv'
+[1/4] Run thredds_download.py
+Traceback (most recent call last):
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 72, in <module>
+    main(time_resolution=t,
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 41, in main
+    download_file(metadata_url, metadata_path)
+  File "/media/ice/Baptiste/geussnow01/thredds-data/thredds_download.py", line 10, in download_file
+    with open(save_path, 'wb') as file:
+BlockingIOError: [Errno 11] Resource temporarily unavailable: 'metadata/AWS_sites_metadata.csv'

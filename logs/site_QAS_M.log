@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+QAS_M
+QAS_Mv3 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/QAS_Mv3/QAS_Mv3_hour.nc
+QAS_M array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/QAS_M/QAS_M_hour.nc
+2026-02-10 17:00:31,588; INFO; pypromice.pipeline.join_l3; joining QAS_Mv3 QAS_M
+2026-02-10 17:00:31,776; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:32,283; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:00:32,526; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:38,014; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_hour.csv
+2026-02-10 17:00:38,014; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_hour.nc
+2026-02-10 17:00:38,027; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:38,185; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:00:38,310; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:39,336; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_day.csv
+2026-02-10 17:00:39,336; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_day.nc
+2026-02-10 17:00:39,350; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:39,537; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:00:39,658; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:39,836; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_month.csv
+2026-02-10 17:00:39,836; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/QAS_M/QAS_M_month.nc

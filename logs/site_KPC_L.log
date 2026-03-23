@@ -1,0 +1,20 @@
+ ======== test join_l3 ========= 
+
+KPC_L
+KPC_L array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/KPC_L/KPC_L_hour.nc
+2026-02-10 16:59:21,215; INFO; pypromice.pipeline.join_l3; joining KPC_L
+2026-02-10 16:59:21,301; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:22,187; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:59:22,627; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:29,856; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_hour.csv
+2026-02-10 16:59:29,856; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_hour.nc
+2026-02-10 16:59:29,871; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:30,163; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:59:30,270; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:30,939; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_day.csv
+2026-02-10 16:59:30,940; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_day.nc
+2026-02-10 16:59:30,956; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:31,238; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:59:31,368; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:31,505; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_month.csv
+2026-02-10 16:59:31,505; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/KPC_L/KPC_L_month.nc

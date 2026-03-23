@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+HUM
+Humboldt array loaded from ../GC-Net-level-1-data-processing/L1/hourly/Humboldt.csv
+HUM array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/HUM/HUM_hour.nc
+2026-02-10 16:58:31,834; INFO; pypromice.pipeline.join_l3; joining HUM Humboldt
+2026-02-10 16:58:32,978; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:36,243; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:58:36,657; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:49,097; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_hour.csv
+2026-02-10 16:58:49,097; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_hour.nc
+2026-02-10 16:58:49,136; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:49,799; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:58:50,004; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:51,017; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_day.csv
+2026-02-10 16:58:51,017; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_day.nc
+2026-02-10 16:58:51,055; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:51,792; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:58:51,985; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:52,229; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_month.csv
+2026-02-10 16:58:52,230; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/HUM/HUM_month.nc

@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+EGP
+EastGRIP array loaded from ../GC-Net-level-1-data-processing/L1/hourly/EastGRIP.csv
+EGP array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/EGP/EGP_hour.nc
+2026-02-10 16:58:31,278; INFO; pypromice.pipeline.join_l3; joining EGP EastGRIP
+2026-02-10 16:58:31,577; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:32,769; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:58:33,032; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:39,479; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_hour.csv
+2026-02-10 16:58:39,479; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_hour.nc
+2026-02-10 16:58:39,494; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:39,735; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:58:39,879; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:40,441; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_day.csv
+2026-02-10 16:58:40,442; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_day.nc
+2026-02-10 16:58:40,463; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:40,725; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:58:40,877; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:41,179; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_month.csv
+2026-02-10 16:58:41,179; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/EGP/EGP_month.nc

@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+NEM
+NEM array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NEM/NEM_hour.nc
+NEEM array loaded from ../GC-Net-level-1-data-processing/L1/hourly/NEEM.csv
+2026-02-10 16:59:44,642; INFO; pypromice.pipeline.join_l3; joining NEM NEEM
+2026-02-10 16:59:44,942; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:46,169; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:59:46,528; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:52,993; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_hour.csv
+2026-02-10 16:59:52,993; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_hour.nc
+2026-02-10 16:59:53,011; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:53,381; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:59:53,519; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:53,910; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_day.csv
+2026-02-10 16:59:53,910; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_day.nc
+2026-02-10 16:59:53,939; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:54,336; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:59:54,495; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:54,893; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_month.csv
+2026-02-10 16:59:54,893; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/NEM/NEM_month.nc

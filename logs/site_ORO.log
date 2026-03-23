@@ -1,0 +1,20 @@
+ ======== test join_l3 ========= 
+
+ORO
+ORO array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/ORO/ORO_hour.nc
+2026-02-10 17:00:06,015; INFO; pypromice.pipeline.join_l3; joining ORO
+2026-02-10 17:00:06,078; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:06,186; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:00:06,448; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:08,652; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_hour.csv
+2026-02-10 17:00:08,652; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_hour.nc
+2026-02-10 17:00:08,654; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:08,709; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:00:08,896; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:11,392; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_day.csv
+2026-02-10 17:00:11,392; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_day.nc
+2026-02-10 17:00:11,395; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:11,448; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:00:11,573; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:00:11,922; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_month.csv
+2026-02-10 17:00:11,922; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/ORO/ORO_month.nc

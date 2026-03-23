@@ -1,0 +1,23 @@
+ ======== test join_l3 ========= 
+
+JAR
+JAR_O array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/JAR_O/JAR_O_hour.nc
+JAR1 array loaded from ../GC-Net-level-1-data-processing/L1/hourly/JAR1.csv
+JAR array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/JAR/JAR_hour.nc
+2026-02-10 16:59:02,004; INFO; pypromice.pipeline.join_l3; joining JAR_O JAR JAR1
+2026-02-10 16:59:02,484; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:04,130; INFO; pypromice.pipeline.resample; wdir_l in dataframe but not wspd_x_l nor wspd_y_l, recalculating them
+2026-02-10 16:59:04,401; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:59:04,776; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:14,346; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_hour.csv
+2026-02-10 16:59:14,346; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_hour.nc
+2026-02-10 16:59:14,369; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:14,712; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:59:14,841; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:15,452; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_day.csv
+2026-02-10 16:59:15,452; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_day.nc
+2026-02-10 16:59:15,479; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:15,827; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:59:15,949; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:16,181; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_month.csv
+2026-02-10 16:59:16,182; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/JAR/JAR_month.nc

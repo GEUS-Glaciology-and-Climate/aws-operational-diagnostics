@@ -1,0 +1,20 @@
+ ======== test join_l3 ========= 
+
+MIT
+MIT array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/MIT/MIT_hour.nc
+2026-02-10 16:59:22,045; INFO; pypromice.pipeline.join_l3; joining MIT
+2026-02-10 16:59:22,160; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:23,036; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:59:23,333; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:30,369; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_hour.csv
+2026-02-10 16:59:30,369; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_hour.nc
+2026-02-10 16:59:30,378; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:30,651; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:59:30,788; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:31,430; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_day.csv
+2026-02-10 16:59:31,431; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_day.nc
+2026-02-10 16:59:31,448; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:59:31,693; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:59:31,806; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:59:32,418; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_month.csv
+2026-02-10 16:59:32,418; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/MIT/MIT_month.nc

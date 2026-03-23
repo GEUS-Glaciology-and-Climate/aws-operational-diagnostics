@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+SDM
+South Dome array loaded from ../GC-Net-level-1-data-processing/L1/hourly/SouthDome.csv
+SDM array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/SDM/SDM_hour.nc
+2026-02-10 17:00:55,659; INFO; pypromice.pipeline.join_l3; joining SDM SouthDome
+2026-02-10 17:00:56,022; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:00:57,716; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:00:58,131; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:08,811; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_hour.csv
+2026-02-10 17:01:08,811; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_hour.nc
+2026-02-10 17:01:08,837; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:09,287; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:01:09,431; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:10,764; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_day.csv
+2026-02-10 17:01:10,765; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_day.nc
+2026-02-10 17:01:10,796; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:11,424; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:01:11,637; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:11,906; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_month.csv
+2026-02-10 17:01:11,907; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SDM/SDM_month.nc

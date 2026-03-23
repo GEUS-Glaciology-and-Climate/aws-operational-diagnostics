@@ -1,0 +1,22 @@
+ ======== test join_l3 ========= 
+
+THU_U
+THU_U2v3 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/THU_U2v3/THU_U2v3_hour.nc
+THU_U2 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/THU_U2/THU_U2_hour.nc
+THU_U array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/THU_U/THU_U_hour.nc
+2026-02-10 17:01:25,618; INFO; pypromice.pipeline.join_l3; joining THU_U2v3 THU_U2 THU_U
+2026-02-10 17:01:25,999; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:26,873; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:01:27,095; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:34,442; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_hour.csv
+2026-02-10 17:01:34,442; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_hour.nc
+2026-02-10 17:01:34,455; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:34,672; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:01:34,803; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:35,522; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_day.csv
+2026-02-10 17:01:35,523; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_day.nc
+2026-02-10 17:01:35,535; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:35,766; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:01:36,062; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:36,660; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_month.csv
+2026-02-10 17:01:36,660; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/THU_U/THU_U_month.nc

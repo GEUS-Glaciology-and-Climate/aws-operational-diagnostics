@@ -1,0 +1,79 @@
+NUK_P
+
+ ======== test get_l2 ========= 
+
+2026-02-10 16:23:37,799; DEBUG; pypromice.pipeline.aws; AWS(config_file=../aws-l0//tx/config/NUK_P.toml, inpath=../aws-l0//tx/, data_issues_repository=../PROMICE-AWS-data-issues, var_file=None, meta_file=None)
+2026-02-10 16:23:37,857; DEBUG; pypromice.pipeline.aws; Source information: {'pypromice': '1.5.1', 'l0_config_file': 'NUK_P.toml:4bdadcfd32851bd1d43433658ee1f333a340ed01', 'l0_data_root': '4bdadcfd32851bd1d43433658ee1f333a340ed01', 'data_issues': 'a469096a07c8232cfb9c3d702402eeec79075bfb'}
+2026-02-10 16:23:37,871; INFO; pypromice.io.ingest.l0; Detected L0 file type 'csv_default' for ../aws-l0/tx/NUK_P_300534063814740_1.txt
+2026-02-10 16:23:37,918; INFO; pypromice.io.ingest.l0; L0 data successfully loaded from NUK_P_300534063814740_1.txt
+2026-02-10 16:23:37,925; INFO; pypromice.pipeline.aws; Level 1 processing...
+2026-02-10 16:23:38,085; INFO; pypromice.pipeline.L0toL1; Warning: Non-null data for z_pt at a bedrock site
+2026-02-10 16:23:38,438; INFO; pypromice.pipeline.aws; Level 2 processing...
+2026-02-10 16:23:38,653; DEBUG; pypromice.core.qc.persistence; Running persistence_qc using {'t_i': {'max_diff': 0.0001, 'period': 2}, 't_u': {'max_diff': 0.0001, 'period': 2}, 't_l': {'max_diff': 0.0001, 'period': 2}, 'p_i': {'max_diff': 0.0001, 'period': 3}, 'p_u': {'max_diff': 0.0001, 'period': 150}, 'p_l': {'max_diff': 0.0001, 'period': 150}, 'gps_lat_lon': {'max_diff': 1e-06, 'period': 6}, 'gps_alt': {'max_diff': 0.0001, 'period': 6}, 't_rad': {'max_diff': 0.0001, 'period': 2}, 'rh_i': {'max_diff': 0.0001, 'period': 2}, 'rh_u': {'max_diff': 0.0001, 'period': 2}, 'rh_l': {'max_diff': 0.0001, 'period': 2}, 'wspd_i': {'max_diff': 0.0001, 'period': 6}, 'wspd_u': {'max_diff': 0.0001, 'period': 6}, 'wspd_l': {'max_diff': 0.0001, 'period': 6}}
+2026-02-10 16:23:38,893; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_u (tol=1.0, factor=2.0): filtering 1/3301
+2026-02-10 16:23:38,945; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_u (tol=1.0, factor=2.0): filtering 1/3301
+2026-02-10 16:23:38,964; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_u (tol=3.0, factor=2.2): filtering 0/3301
+2026-02-10 16:23:39,028; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on rh_u (tol=2.0, factor=3.5): filtering 0/3301
+2026-02-10 16:23:39,089; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_u (tol=0.5, factor=2.0): filtering 1/3301
+2026-02-10 16:23:39,139; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_u (tol=0.5, factor=2.0): filtering 0/3301
+2026-02-10 16:23:39,153; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_1 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,203; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_2 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,254; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_3 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,317; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_4 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,378; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_5 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,432; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_6 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,479; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_7 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,535; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i_8 (tol=0.5, factor=1.5): filtering 0/3301
+2026-02-10 16:23:39,593; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_i (tol=1.0, factor=2.0): filtering 2/3301
+2026-02-10 16:23:39,642; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on p_i (tol=1.0, factor=2.0): filtering 0/3301
+2026-02-10 16:23:39,660; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on t_i (tol=3.0, factor=2.2): filtering 0/3301
+2026-02-10 16:23:39,712; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on rh_i (tol=2.0, factor=3.5): filtering 0/3301
+2026-02-10 16:23:39,762; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_i (tol=0.5, factor=2.0): filtering 1/3301
+2026-02-10 16:23:39,809; INFO; pypromice.core.qc.rate_of_change_filter; ROC filter on wspd_i (tol=0.5, factor=2.0): filtering 0/3301
+2026-02-10 16:23:39,847; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv
+2026-02-10 16:23:39,847; INFO; pypromice.core.qc.github_data_issues; No ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv file to read.
+2026-02-10 16:23:39,973; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/flags/NUK_P.csv
+2026-02-10 16:23:39,973; INFO; pypromice.core.qc.github_data_issues; No ../PROMICE-AWS-data-issues/flags/NUK_P.csv file to read.
+2026-02-10 16:23:40,167; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv
+2026-02-10 16:23:40,167; INFO; pypromice.core.qc.github_data_issues; No ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv file to read.
+2026-02-10 16:23:40,863; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:23:40,964; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:23:41,044; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:23:42,327; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/tx/NUK_P/NUK_P_hour.csv
+2026-02-10 16:23:42,328; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/tx/NUK_P/NUK_P_hour.nc
+
+ ======== test join_l2 ========= 
+
+2026-02-10 16:23:43,446; INFO; pypromice.pipeline.join_l2; NUK_P array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L2_test/tx/NUK_P/NUK_P_hour.nc
+2026-02-10 16:23:43,446; INFO; pypromice.pipeline.join_l2; Only one file found /media/ice/Baptiste/geussnow01/aws-dev/L2_test/tx/NUK_P/NUK_P_hour.nc...
+2026-02-10 16:23:43,545; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:23:44,782; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_P/NUK_P_hour.csv
+2026-02-10 16:23:44,782; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_P/NUK_P_hour.nc
+2026-02-10 16:23:44,782; INFO; pypromice.pipeline.join_l2; Files saved to /media/ice/Baptiste/geussnow01/aws-dev/L2_test/level_2/NUK_P...
+
+ ======== test l2tol3 ========= 
+
+2026-02-10 16:23:44,953; WARNING; root; data_issues_path is missing. Using default data issues path: ../PROMICE-AWS-data-issues
+2026-02-10 16:23:44,964; INFO; pypromice.pipeline.L2toL3; processing gps_lat without relocation
+2026-02-10 16:23:44,968; INFO; pypromice.pipeline.L2toL3; processing gps_lon without relocation
+2026-02-10 16:23:44,971; INFO; pypromice.pipeline.L2toL3; processing gps_alt without relocation
+2026-02-10 16:23:44,984; INFO; pypromice.core.qc.github_data_issues; Using file: ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv
+2026-02-10 16:23:44,984; INFO; pypromice.core.qc.github_data_issues; No ../PROMICE-AWS-data-issues/adjustments/NUK_P.csv file to read.
+2026-02-10 16:23:44,985; INFO; pypromice.pipeline.L2toL3; Combining surface height
+2026-02-10 16:23:44,985; INFO; pypromice.pipeline.L2toL3; -> did not find z_ice_surf
+2026-02-10 16:23:44,986; INFO; pypromice.pipeline.L2toL3; -> no z_pt or accumulation site: averaging z_surf_1 and z_surf_2
+2026-02-10 16:23:45,003; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:23:45,089; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:23:45,208; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:23:46,462; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_hour.csv
+2026-02-10 16:23:46,462; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_hour.nc
+2026-02-10 16:23:46,466; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:23:46,509; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:23:46,596; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:23:47,007; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_day.csv
+2026-02-10 16:23:47,008; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_day.nc
+2026-02-10 16:23:47,012; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:23:47,059; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:23:47,167; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:23:47,767; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_month.csv
+2026-02-10 16:23:47,768; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/NUK_P/NUK_P_month.nc

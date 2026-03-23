@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+DY2
+DY2 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/DY2/DY2_hour.nc
+DYE-2 array loaded from ../GC-Net-level-1-data-processing/L1/hourly/DYE-2.csv
+2026-02-10 16:58:30,994; INFO; pypromice.pipeline.join_l3; joining DY2 DYE-2
+2026-02-10 16:58:31,304; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:34,515; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:58:34,968; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:49,174; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_hour.csv
+2026-02-10 16:58:49,175; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_hour.nc
+2026-02-10 16:58:49,204; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:49,719; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:58:49,859; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:50,740; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_day.csv
+2026-02-10 16:58:50,740; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_day.nc
+2026-02-10 16:58:50,771; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:51,400; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:58:51,561; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:51,758; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_month.csv
+2026-02-10 16:58:51,758; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/DY2/DY2_month.nc

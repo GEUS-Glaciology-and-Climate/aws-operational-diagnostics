@@ -1,0 +1,24 @@
+ ======== test join_l3 ========= 
+
+SWC
+SWC_O array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/SWC_O/SWC_O_hour.nc
+Swiss Camp 10m array loaded from ../GC-Net-level-1-data-processing/L1/hourly/SwissCamp10m.csv
+SWC array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/SWC/SWC_hour.nc
+Swiss Camp array loaded from ../GC-Net-level-1-data-processing/L1/hourly/SwissCamp.csv
+2026-02-10 17:00:57,628; INFO; pypromice.pipeline.join_l3; joining SWC_O SWC SwissCamp SwissCamp10m
+2026-02-10 17:00:58,229; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:00,034; INFO; pypromice.pipeline.resample; wdir_l in dataframe but not wspd_x_l nor wspd_y_l, recalculating them
+2026-02-10 17:01:00,287; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:01:00,676; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:13,176; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_hour.csv
+2026-02-10 17:01:13,177; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_hour.nc
+2026-02-10 17:01:13,217; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:13,786; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:01:13,923; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:14,510; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_day.csv
+2026-02-10 17:01:14,511; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_day.nc
+2026-02-10 17:01:14,540; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:15,081; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:01:15,207; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:15,304; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_month.csv
+2026-02-10 17:01:15,304; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/SWC/SWC_month.nc

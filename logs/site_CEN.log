@@ -1,0 +1,22 @@
+ ======== test join_l3 ========= 
+
+CEN
+CEN1 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/CEN1/CEN1_hour.nc
+GITS array loaded from ../GC-Net-level-1-data-processing/L1/hourly/GITS.csv
+CEN2 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/CEN2/CEN2_hour.nc
+2026-02-10 16:58:31,695; INFO; pypromice.pipeline.join_l3; joining CEN2 CEN1 GITS
+2026-02-10 16:58:32,702; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:36,188; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:58:36,596; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:48,963; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_hour.csv
+2026-02-10 16:58:48,964; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_hour.nc
+2026-02-10 16:58:48,999; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:49,466; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:58:49,615; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:50,426; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_day.csv
+2026-02-10 16:58:50,426; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_day.nc
+2026-02-10 16:58:50,463; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:51,009; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:58:51,153; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:51,477; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_month.csv
+2026-02-10 16:58:51,477; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CEN/CEN_month.nc

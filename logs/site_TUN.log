@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+TUN
+Tunu-N array loaded from ../GC-Net-level-1-data-processing/L1/hourly/Tunu-N.csv
+TUN array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/TUN/TUN_hour.nc
+2026-02-10 17:01:24,575; INFO; pypromice.pipeline.join_l3; joining TUN Tunu-N
+2026-02-10 17:01:25,174; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:27,474; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 17:01:27,895; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:38,376; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_hour.csv
+2026-02-10 17:01:38,376; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_hour.nc
+2026-02-10 17:01:38,404; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:38,964; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 17:01:39,105; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:39,824; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_day.csv
+2026-02-10 17:01:39,824; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_day.nc
+2026-02-10 17:01:39,852; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 17:01:40,391; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 17:01:40,525; INFO; pypromice.io.write; Writing to files...
+2026-02-10 17:01:40,894; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_month.csv
+2026-02-10 17:01:40,895; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/TUN/TUN_month.nc

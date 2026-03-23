@@ -1,0 +1,21 @@
+ ======== test join_l3 ========= 
+
+CP1
+CP1 array loaded from /media/ice/Baptiste/geussnow01/aws-dev/L3_test/stations/CP1/CP1_hour.nc
+Crawford Point 1 array loaded from ../GC-Net-level-1-data-processing/L1/hourly/CrawfordPoint1.csv
+2026-02-10 16:58:30,762; INFO; pypromice.pipeline.join_l3; joining CP1 CrawfordPoint1
+2026-02-10 16:58:31,133; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:34,468; INFO; pypromice.io.write; Resampling to 60min
+2026-02-10 16:58:34,888; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:49,381; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_hour.csv
+2026-02-10 16:58:49,381; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_hour.nc
+2026-02-10 16:58:49,403; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:49,979; INFO; pypromice.io.write; Resampling to 1D
+2026-02-10 16:58:50,119; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:50,920; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_day.csv
+2026-02-10 16:58:50,921; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_day.nc
+2026-02-10 16:58:50,944; WARNING; pypromice.pipeline.resample; Dropping QC columns because they are of type object and cannot be resampled
+2026-02-10 16:58:51,465; INFO; pypromice.io.write; Resampling to MS
+2026-02-10 16:58:51,593; INFO; pypromice.io.write; Writing to files...
+2026-02-10 16:58:52,065; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_month.csv
+2026-02-10 16:58:52,065; INFO; pypromice.io.write; Written to /media/ice/Baptiste/geussnow01/aws-dev/L3_test/sites/CP1/CP1_month.nc
