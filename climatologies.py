@@ -14,8 +14,8 @@ import math
 from tqdm import tqdm
 
 # %% Snow height climatology plots
-def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
-    path_new=Path(path_thredds) /"level_3_sites/csv/hour"
+def main(path_thredds = "../thredds-data/"):
+    path_new=Path(path_thredds) /"level_3_sites/csv/day"
 
     out=Path("figures/snow_height_mosaic.png")
     
@@ -32,8 +32,8 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
     
     stations=[]
     for fn in sorted(os.listdir(path_new)):
-        if not fn.endswith("_hour.csv"): continue
-        s=fn.replace("_hour.csv","")
+        if not fn.endswith("_day.csv"): continue
+        s=fn.replace("_day.csv","")
         if s in ['NUK_P', 'WEG_B','NUK_B','SER_B','UWN','ORO']: continue
         stations.append(s)
     if not stations: raise SystemExit("no stations")
@@ -45,14 +45,14 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
     handles={}
     for i, st in enumerate(tqdm(stations, desc="Plotting snow height")):
         r,c=divmod(i,N_COLS); a=ax[r,c]
-        fp=path_new/f"{st}_hour.csv"
+        fp=path_new/f"{st}_day.csv"
         d=pd.read_csv(fp,usecols=lambda c:c in["time",'z_surf_combined',"snow_height"])
         if "snow_height" not in d.columns: 
             d['snow_height'] = d['z_surf_combined']
             print(st, 'misses snow_height')
         d["time"]=pd.to_datetime(d["time"],errors="coerce")
         d["snow_height"]=pd.to_numeric(d["snow_height"],errors="coerce")
-        d=d.dropna(subset=["time"]).set_index("time").sort_index().resample('D').mean()
+        d=d.dropna(subset=["time"]).set_index("time").sort_index()
         if d["snow_height"].dropna().empty: a.axis("off"); continue
     
         for y in sorted(d.index.year.unique().tolist()):
@@ -112,7 +112,7 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
     stations=[]
     for s in df_meta.index:
         if s in ['NUK_P', 'WEG_B','NUK_B','SER_B','UWN','ORO']: continue
-        fp=path_new/f"{s}_hour.csv"
+        fp=path_new/f"{s}_day.csv"
         if not fp.exists(): continue
         d=pd.read_csv(fp,usecols=lambda c:c in["time","z_surf_combined"])
         li=d["z_surf_combined"].last_valid_index()
@@ -126,10 +126,10 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
     handles={}
     for i, s in enumerate(tqdm(stations, desc="Plotting ablation")):
         r,c=divmod(i,N_COLS); a=ax[r,c]
-        d=pd.read_csv(path_new/f"{s}_hour.csv",usecols=lambda c:c in["time","z_surf_combined"])
+        d=pd.read_csv(path_new/f"{s}_day.csv",usecols=lambda c:c in["time","z_surf_combined"])
         d["time"]=pd.to_datetime(d["time"],errors="coerce")
         d["z_surf_combined"]=pd.to_numeric(d["z_surf_combined"],errors="coerce")
-        d=d.dropna(subset=["time"]).set_index("time").sort_index().resample('D').mean()
+        d=d.dropna(subset=["time"]).set_index("time").sort_index()
         d["z_ice_surf"]=d["z_surf_combined"].cummin()
         m=d[d.index.month.isin([6,7,8])]["z_surf_combined"].isnull().resample("YE").sum()
         for t,v in m.items():
@@ -181,13 +181,13 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
     
         for i, s in enumerate(tqdm(stations, desc=f"Plotting {var} climatlogy")):
             r,c=divmod(i,N_COLS); a=ax[r,c]
-            fp=path_new/f"{s}_hour.csv"
+            fp=path_new/f"{s}_day.csv"
             if not fp.exists(): a.axis("off"); continue
             d=pd.read_csv(fp,usecols=lambda c:c in["time",var])
             if "time" not in d.columns or var not in d.columns: a.axis("off"); continue
             d["time"]=pd.to_datetime(d["time"],errors="coerce")
             d[var]=pd.to_numeric(d[var],errors="coerce")
-            d=d.dropna(subset=["time"]).set_index("time").sort_index().resample('D').mean()
+            d=d.dropna(subset=["time"]).set_index("time").sort_index()
             if d[var].dropna().empty: a.axis("off"); continue
     
             for y in sorted(d.index.year.unique().tolist()):
