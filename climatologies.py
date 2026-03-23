@@ -129,7 +129,7 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
         d=pd.read_csv(path_new/f"{s}_hour.csv",usecols=lambda c:c in["time","z_surf_combined"])
         d["time"]=pd.to_datetime(d["time"],errors="coerce")
         d["z_surf_combined"]=pd.to_numeric(d["z_surf_combined"],errors="coerce")
-        d=d.dropna(subset=["time"]).set_index("time").sort_index()
+        d=d.dropna(subset=["time"]).set_index("time").sort_index().resample('D').mean()
         d["z_ice_surf"]=d["z_surf_combined"].cummin()
         m=d[d.index.month.isin([6,7,8])]["z_surf_combined"].isnull().resample("YE").sum()
         for t,v in m.items():
@@ -187,7 +187,7 @@ def main(path_thredds = "../thredds-data/level_3_sites/csv/hour"):
             if "time" not in d.columns or var not in d.columns: a.axis("off"); continue
             d["time"]=pd.to_datetime(d["time"],errors="coerce")
             d[var]=pd.to_numeric(d[var],errors="coerce")
-            d=d.dropna(subset=["time"]).set_index("time").sort_index()
+            d=d.dropna(subset=["time"]).set_index("time").sort_index().resample('D').mean()
             if d[var].dropna().empty: a.axis("off"); continue
     
             for y in sorted(d.index.year.unique().tolist()):
