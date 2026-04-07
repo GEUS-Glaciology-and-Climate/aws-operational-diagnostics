@@ -450,12 +450,16 @@ def main(path_thredds):
     path_meta = Path(path_thredds) / "metadata/AWS_sites_metadata.csv"
 
     station_groups = [
-        ["KAN_L", "KAN_M", "KAN_U"],
+        ["KAN_T", "KAN_L", "KAN_M", "KAN_U"],
         ["QAS_L", "QAS_M", "QAS_U"],
         ["SCO_L", "SCO_U"],
+        ["KPC_L", "KPC_U"],
         ["JAR", "SWC"],
         ["TAS_L", "TAS_A"],
         ["THU_L", "THU_U"],
+        ["NUK_L", "NUK_U"],
+        ["UPE_L", "UPE_U"],
+        ["ZAC_L", "ZAC_U", "ZAC_A"],
     ]
 
     path_greenland = "GIS/Land_3413.shp"
@@ -464,7 +468,7 @@ def main(path_thredds):
     plot_grouped_mosaic(
         station_groups=station_groups,
         path_csv_dir=path_csv_dir,
-        out_png="figures/snow_height_",
+        out_png="figures/climatology/snow_height_",
         kind="snow",
         focus_year=2026,
         path_meta=path_meta,
