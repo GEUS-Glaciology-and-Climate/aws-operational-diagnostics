@@ -12,7 +12,7 @@ import argparse
 from pathlib import Path
 import math
 from tqdm import tqdm
-
+SKIP = ['NUK_P','NUK_B','SER_B','UWN','ORO', 'NUK_N','QAS_A','TAS_U']
 # %% Snow height climatology plots
 def main(path_thredds = "../thredds-data/"):
     path_new=Path(path_thredds) /"level_3_sites/csv/day"
@@ -34,7 +34,7 @@ def main(path_thredds = "../thredds-data/"):
     for fn in sorted(os.listdir(path_new)):
         if not fn.endswith("_day.csv"): continue
         s=fn.replace("_day.csv","")
-        if s in ['NUK_P', 'WEG_B','NUK_B','SER_B','UWN','ORO']: continue
+        if s in SKIP: continue
         stations.append(s)
     if not stations: raise SystemExit("no stations")
     
@@ -111,7 +111,7 @@ def main(path_thredds = "../thredds-data/"):
     
     stations=[]
     for s in df_meta.index:
-        if s in ['NUK_P', 'WEG_B','NUK_B','SER_B','UWN','ORO']: continue
+        if s in SKIP: continue
         fp=path_new/f"{s}_day.csv"
         if not fp.exists(): continue
         d=pd.read_csv(fp,usecols=lambda c:c in["time","z_surf_combined"])
@@ -173,7 +173,7 @@ def main(path_thredds = "../thredds-data/"):
         return ticks,labs
     
     def plot_var_mosaic(var, out_png):
-        stations=list(df_meta.index)
+        stations= [s for s in list(df_meta.index) if s not in SKIP]
         n=len(stations); nrows=math.ceil(n/N_COLS)
         fig,ax=plt.subplots(nrows,N_COLS,figsize=(N_COLS*3.2,nrows*2.2),sharex=True,sharey=False)
         ax=np.atleast_2d(ax)
