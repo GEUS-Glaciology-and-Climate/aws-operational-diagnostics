@@ -270,7 +270,7 @@ def write_plot_gallery_markdown(
             img_name = f"{kind}_{'_'.join(stations)}.png"
             lines.append(f"### {' – '.join(stations)}")
             lines.append("")
-            lines.append(f"![{img_name}](../figures/{img_name})")
+            lines.append(f"![{img_name}](../figures/climatology/{img_name})")
             lines.append("")
 
     md_path.write_text("\n".join(lines), encoding="utf-8")
