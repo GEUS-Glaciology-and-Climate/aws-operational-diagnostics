@@ -84,44 +84,44 @@
 
 ![t_u_ZAC_L_ZAC_U_ZAC_A.png](../figures/climatology/t_u_ZAC_L_ZAC_U_ZAC_A.png)
 
-## Tsurf
+## T Surf
 
 ### KAN_T – KAN_L – KAN_M – KAN_U
 
-![tsurf_KAN_T_KAN_L_KAN_M_KAN_U.png](../figures/climatology/tsurf_KAN_T_KAN_L_KAN_M_KAN_U.png)
+![t_surf_KAN_T_KAN_L_KAN_M_KAN_U.png](../figures/climatology/t_surf_KAN_T_KAN_L_KAN_M_KAN_U.png)
 
 ### QAS_L – QAS_M – QAS_U
 
-![tsurf_QAS_L_QAS_M_QAS_U.png](../figures/climatology/tsurf_QAS_L_QAS_M_QAS_U.png)
+![t_surf_QAS_L_QAS_M_QAS_U.png](../figures/climatology/t_surf_QAS_L_QAS_M_QAS_U.png)
 
 ### SCO_L – SCO_U
 
-![tsurf_SCO_L_SCO_U.png](../figures/climatology/tsurf_SCO_L_SCO_U.png)
+![t_surf_SCO_L_SCO_U.png](../figures/climatology/t_surf_SCO_L_SCO_U.png)
 
 ### KPC_L – KPC_U
 
-![tsurf_KPC_L_KPC_U.png](../figures/climatology/tsurf_KPC_L_KPC_U.png)
+![t_surf_KPC_L_KPC_U.png](../figures/climatology/t_surf_KPC_L_KPC_U.png)
 
 ### JAR – SWC
 
-![tsurf_JAR_SWC.png](../figures/climatology/tsurf_JAR_SWC.png)
+![t_surf_JAR_SWC.png](../figures/climatology/t_surf_JAR_SWC.png)
 
 ### TAS_L – TAS_A
 
-![tsurf_TAS_L_TAS_A.png](../figures/climatology/tsurf_TAS_L_TAS_A.png)
+![t_surf_TAS_L_TAS_A.png](../figures/climatology/t_surf_TAS_L_TAS_A.png)
 
 ### THU_L – THU_U
 
-![tsurf_THU_L_THU_U.png](../figures/climatology/tsurf_THU_L_THU_U.png)
+![t_surf_THU_L_THU_U.png](../figures/climatology/t_surf_THU_L_THU_U.png)
 
 ### NUK_L – NUK_U
 
-![tsurf_NUK_L_NUK_U.png](../figures/climatology/tsurf_NUK_L_NUK_U.png)
+![t_surf_NUK_L_NUK_U.png](../figures/climatology/t_surf_NUK_L_NUK_U.png)
 
 ### UPE_L – UPE_U
 
-![tsurf_UPE_L_UPE_U.png](../figures/climatology/tsurf_UPE_L_UPE_U.png)
+![t_surf_UPE_L_UPE_U.png](../figures/climatology/t_surf_UPE_L_UPE_U.png)
 
 ### ZAC_L – ZAC_U – ZAC_A
 
-![tsurf_ZAC_L_ZAC_U_ZAC_A.png](../figures/climatology/tsurf_ZAC_L_ZAC_U_ZAC_A.png)
+![t_surf_ZAC_L_ZAC_U_ZAC_A.png](../figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png)

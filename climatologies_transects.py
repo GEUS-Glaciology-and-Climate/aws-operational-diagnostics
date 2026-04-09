@@ -151,7 +151,7 @@ def weather_style(var):
              'p_u':'Air pressure (hPa)',
              'wspd_u':'Wind speed (m/s)',
              'rh_u': 'Relative humidity (%)',
-             'tsurf': 'Surface temperature (°C)'
+             't_surf': 'Surface temperature (°C)'
              }
     s.update(  { "xlim": (1, 366),  "ylabel": label[var], "ticks": ticks, 
                 "ticklabels": labels })
@@ -488,7 +488,7 @@ def main(path_thredds):
     #     path_ice=path_ice,
     # )
 
-    for var in ["t_u", "tsurf"]: #, "p_u", "wspd_u"]:
+    for var in ["t_u", "t_surf"]: #, "p_u", "wspd_u"]:
         plot_grouped_mosaic(
             station_groups=station_groups,
             path_csv_dir=path_csv_dir,
@@ -505,7 +505,7 @@ def main(path_thredds):
         station_groups=station_groups,
         out_dir="./plot_compilations",
         filename="all_station_plots.md",
-        kinds=["snow_height", "t_u", "tsurf"],
+        kinds=["snow_height", "t_u", "t_surf"],
     )
         
 
