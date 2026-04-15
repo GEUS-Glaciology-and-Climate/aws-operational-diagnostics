@@ -442,7 +442,6 @@ def plot_grouped_mosaic(
         Path(out_png).parent.mkdir(parents=True, exist_ok=True)
         fig.savefig(out_png+'_'.join(stations)+'.png', dpi=120, bbox_inches="tight")
         print('Saved : '+out_png+'_'.join(stations)+'.png')
-        plt.show()
 
 
 # example

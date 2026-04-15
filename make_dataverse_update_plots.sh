@@ -81,6 +81,7 @@ git pull
 $PYTHON "$DIAG_DIR/plots_dataset_version_comparison.py" --dataverse_version "V$ver_major"
 
 $PYTHON "$DIAG_DIR/climatologies.py" --path_thredds $THREDDS_DIR
+$PYTHON "$DIAG_DIR/climatologies_transects.py" --path_thredds $THREDDS_DIR
 
 
 git add -A
