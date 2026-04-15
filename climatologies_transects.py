@@ -55,7 +55,7 @@ def snow_accum_transform(d, focus_year):
             continue
         ref = dy["snow_height"].loc[slice(fvi, fvi + pd.Timedelta("30D"))].min()
         dy["y"] = dy["snow_height"] - ref
-        out[y] = dy[["x", "y"]].dropna()
+        out[y] = dy[["x", "y"]] #.dropna()
     return out
 
 
@@ -87,7 +87,7 @@ def ablation_transform(d, focus_year):
             continue
         z0 = dy["z_ice_surf"].loc[slice(fvi, fvi + pd.Timedelta("10D"))].mean()
         dy["y"] = dy["z_ice_surf"] - z0
-        out[y] = dy[["x", "y"]].dropna()
+        out[y] = dy[["x", "y"]] #.dropna()
     return out
 
 
@@ -153,7 +153,7 @@ def weather_style(var):
              'rh_u': 'Relative humidity (%)',
              't_surf': 'Surface temperature (°C)'
              }
-    s.update(  { "xlim": (1, 366),  "ylabel": label[var], "ticks": ticks, 
+    s.update(  { "xlim": (1, 366),  "ylabel": label[var], "ticks": ticks,
                 "ticklabels": labels })
     return s
 
@@ -220,9 +220,9 @@ def plot_station_panel(ax, series_by_year, title, year_color, focus_year, style)
         else:
             ax.plot(dy["x"], dy["y"], color='#7ec1dc', lw=1, zorder=2)[0]
     yrs = np.array([n for n in series_by_year.keys() if n!=focus_year])
-    ax.plot(np.nan, np.nan,color='#7ec1dc', lw=1.2, zorder=2, 
+    ax.plot(np.nan, np.nan,color='#7ec1dc', lw=1.2, zorder=2,
          label = f'{np.min(yrs)} - {np.max(yrs)}')
-    
+
     ax.legend(loc='lower right', fontsize=8)
 
     ax.set_title(title)
@@ -308,13 +308,13 @@ def plot_group_map(ax, greenland_gdf, ice_gdf, station_points, stations):
         ice_gdf.plot(ax=ax, color="white", edgecolor="0.5", linewidth=0.5)
 
     pts = station_points.loc[station_points.index.intersection(stations)].copy()
-    
+
     if not pts.empty:
         pts.plot(ax=ax, markersize=30, zorder=4, color='#b3e0f3')
         pts.plot(ax=ax, markersize=25, zorder=5, color='#111145')
-    
+
         offsets = CLOCK_OFFSETS_PT.get(len(pts), [(r_pt, 0)] * len(pts))
-    
+
         for (name, row), (dx, dy) in zip(pts.iterrows(), offsets):
             ax.annotate(
                 name,
@@ -365,7 +365,7 @@ def plot_grouped_mosaic(
 
     for ig, stations in enumerate(station_groups):
         n_groups = len(stations)
-    
+
         fig = plt.figure(figsize=(7, 3 * 1.7))
         # replace GridSpec definition
         gs = GridSpec(
@@ -377,7 +377,7 @@ def plot_grouped_mosaic(
             hspace=0.35,
             left=0.1,   # left margin as fraction of figure width
         )
-    
+
         all_handles = {}
         group_start = ig * n_groups
 
@@ -423,22 +423,22 @@ def plot_grouped_mosaic(
         #         frameon=False,
         #         title="Year",
         #     )
-        
+
         fig.text(0.02, 0.5, style["ylabel"], va="center", rotation="vertical")
-        
+
         bbox = map_ax.get_position()   # figure coordinates
         logo_width = 0.3
         logo_height = logo_width *0.65  # adjust depending on logo aspect ratio
         logo_left = bbox.x0-0.04
         logo_bottom = bbox.y0 - 0.15
-        
+
         logo = mpimg.imread("figures/Promice_GC-Net_colour.png")
-        
+
         logo_ax = fig.add_axes([logo_left, logo_bottom, logo_width, logo_height])
         logo_ax.imshow(logo)
         logo_ax.axis("off")
         logo_ax.set_aspect("auto")
-    
+
         Path(out_png).parent.mkdir(parents=True, exist_ok=True)
         fig.savefig(out_png+'_'.join(stations)+'.png', dpi=120, bbox_inches="tight")
         print('Saved : '+out_png+'_'.join(stations)+'.png')
@@ -499,22 +499,22 @@ def main(path_thredds):
             path_greenland=path_greenland,
             path_ice=path_ice,
         )
-    
+
     write_plot_gallery_markdown(
         station_groups=station_groups,
         out_dir="./plot_compilations",
         filename="all_station_plots.md",
         kinds=["snow_height", "t_u", "t_surf"],
     )
-        
+
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the script with optional parameters.")
-    parser.add_argument("--path_thredds", type=str, default="../thredds-data", 
+    parser.add_argument("--path_thredds", type=str, default="../thredds-data",
                         help="Path to thredds data")
 
     args = parser.parse_args()
-    
+
     main(path_thredds=args.path_thredds)
