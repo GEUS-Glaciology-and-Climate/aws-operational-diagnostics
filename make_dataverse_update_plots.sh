@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 set -eu
+cd /home/bav/aws-operational-diagnostics
+
+eval "$(/home/bav/miniforge3/bin/conda shell.bash hook)"
+conda activate base
+
+grep -nE "python|python3|/usr/bin/env|conda|mamba" /home/bav/aws-operational-diagnostics/make_dataverse_update_plots.sh
+
 
 CONDA=/home/bav/miniforge3/bin/conda
 PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
@@ -78,9 +85,9 @@ cd "$DIAG_DIR"
 git fetch
 git pull
 
-$PYTHON "$DIAG_DIR/plots_dataset_version_comparison.py" --dataverse_version "V$ver_major"
+# $PYTHON "$DIAG_DIR/plots_dataset_version_comparison.py" --dataverse_version "V$ver_major"
 
-$PYTHON "$DIAG_DIR/climatologies.py" --path_thredds $THREDDS_DIR
+# $PYTHON "$DIAG_DIR/climatologies.py" --path_thredds $THREDDS_DIR
 $PYTHON "$DIAG_DIR/climatologies_transects.py" --path_thredds $THREDDS_DIR
 
 

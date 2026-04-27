@@ -1,191 +1,0 @@
-[1/4] Run thredds_download.py
-Downloaded: metadata/AWS_sites_metadata.csv
-Downloaded: metadata/AWS_variables.csv
-Downloaded: metadata/AWS_data_readme.pdf
-Downloaded: level_3_sites/csv/month/CEN_month.csv
-Downloaded: level_3_sites/csv/month/CP1_month.csv
-Downloaded: level_3_sites/csv/month/DY2_month.csv
-Downloaded: level_3_sites/csv/month/EGP_month.csv
-Downloaded: level_3_sites/csv/month/FRE_month.csv
-Downloaded: level_3_sites/csv/month/HUM_month.csv
-Downloaded: level_3_sites/csv/month/JAR_month.csv
-Downloaded: level_3_sites/csv/month/KAN_B_month.csv
-Downloaded: level_3_sites/csv/month/KAN_L_month.csv
-Downloaded: level_3_sites/csv/month/KAN_M_month.csv
-Downloaded: level_3_sites/csv/month/KAN_T_month.csv
-Downloaded: level_3_sites/csv/month/KAN_U_month.csv
-Downloaded: level_3_sites/csv/month/KPC_L_month.csv
-Downloaded: level_3_sites/csv/month/KPC_U_month.csv
-Downloaded: level_3_sites/csv/month/LYN_L_month.csv
-Downloaded: level_3_sites/csv/month/LYN_T_month.csv
-Downloaded: level_3_sites/csv/month/MIT_month.csv
-Downloaded: level_3_sites/csv/month/NAE_month.csv
-Downloaded: level_3_sites/csv/month/NAU_month.csv
-Downloaded: level_3_sites/csv/month/NEM_month.csv
-Downloaded: level_3_sites/csv/month/NSE_month.csv
-Downloaded: level_3_sites/csv/month/NUK_B_month.csv
-Downloaded: level_3_sites/csv/month/NUK_K_month.csv
-Downloaded: level_3_sites/csv/month/NUK_L_month.csv
-Downloaded: level_3_sites/csv/month/NUK_N_month.csv
-Downloaded: level_3_sites/csv/month/NUK_P_month.csv
-Downloaded: level_3_sites/csv/month/NUK_U_month.csv
-Downloaded: level_3_sites/csv/month/ORO_month.csv
-Downloaded: level_3_sites/csv/month/QAS_A_month.csv
-Downloaded: level_3_sites/csv/month/QAS_L_month.csv
-Downloaded: level_3_sites/csv/month/QAS_M_month.csv
-Downloaded: level_3_sites/csv/month/QAS_U_month.csv
-Downloaded: level_3_sites/csv/month/RED_L_month.csv
-Downloaded: level_3_sites/csv/month/SCO_L_month.csv
-Downloaded: level_3_sites/csv/month/SCO_U_month.csv
-Downloaded: level_3_sites/csv/month/SDL_month.csv
-Downloaded: level_3_sites/csv/month/SDM_month.csv
-Downloaded: level_3_sites/csv/month/SER_B_month.csv
-Downloaded: level_3_sites/csv/month/SWC_month.csv
-Downloaded: level_3_sites/csv/month/TAS_A_month.csv
-Downloaded: level_3_sites/csv/month/TAS_L_month.csv
-Downloaded: level_3_sites/csv/month/TAS_U_month.csv
-Downloaded: level_3_sites/csv/month/THU_L_month.csv
-Downloaded: level_3_sites/csv/month/THU_L2_month.csv
-Downloaded: level_3_sites/csv/month/THU_U_month.csv
-Downloaded: level_3_sites/csv/month/TUN_month.csv
-Downloaded: level_3_sites/csv/month/UPE_L_month.csv
-Downloaded: level_3_sites/csv/month/UPE_U_month.csv
-Downloaded: level_3_sites/csv/month/UWN_month.csv
-Downloaded: level_3_sites/csv/month/WEG_B_month.csv
-Downloaded: level_3_sites/csv/month/WEG_L_month.csv
-Downloaded: level_3_sites/csv/month/ZAC_A_month.csv
-Downloaded: level_3_sites/csv/month/ZAC_L_month.csv
-Downloaded: level_3_sites/csv/month/ZAC_U_month.csv
-Downloaded: metadata/AWS_sites_metadata.csv
-Downloaded: metadata/AWS_variables.csv
-Downloaded: metadata/AWS_data_readme.pdf
-Downloaded: level_3_sites/csv/day/CEN_day.csv
-Downloaded: level_3_sites/csv/day/CP1_day.csv
-Downloaded: level_3_sites/csv/day/DY2_day.csv
-Downloaded: level_3_sites/csv/day/EGP_day.csv
-Downloaded: level_3_sites/csv/day/FRE_day.csv
-Downloaded: level_3_sites/csv/day/HUM_day.csv
-Downloaded: level_3_sites/csv/day/JAR_day.csv
-Downloaded: level_3_sites/csv/day/KAN_B_day.csv
-Downloaded: level_3_sites/csv/day/KAN_L_day.csv
-Downloaded: level_3_sites/csv/day/KAN_M_day.csv
-Downloaded: level_3_sites/csv/day/KAN_T_day.csv
-Downloaded: level_3_sites/csv/day/KAN_U_day.csv
-Downloaded: level_3_sites/csv/day/KPC_L_day.csv
-Downloaded: level_3_sites/csv/day/KPC_U_day.csv
-Downloaded: level_3_sites/csv/day/LYN_L_day.csv
-Downloaded: level_3_sites/csv/day/LYN_T_day.csv
-Downloaded: level_3_sites/csv/day/MIT_day.csv
-Downloaded: level_3_sites/csv/day/NAE_day.csv
-Downloaded: level_3_sites/csv/day/NAU_day.csv
-Downloaded: level_3_sites/csv/day/NEM_day.csv
-Downloaded: level_3_sites/csv/day/NSE_day.csv
-Downloaded: level_3_sites/csv/day/NUK_B_day.csv
-Downloaded: level_3_sites/csv/day/NUK_K_day.csv
-Downloaded: level_3_sites/csv/day/NUK_L_day.csv
-Downloaded: level_3_sites/csv/day/NUK_N_day.csv
-Downloaded: level_3_sites/csv/day/NUK_P_day.csv
-Downloaded: level_3_sites/csv/day/NUK_U_day.csv
-Downloaded: level_3_sites/csv/day/ORO_day.csv
-Downloaded: level_3_sites/csv/day/QAS_A_day.csv
-Downloaded: level_3_sites/csv/day/QAS_L_day.csv
-Downloaded: level_3_sites/csv/day/QAS_M_day.csv
-Downloaded: level_3_sites/csv/day/QAS_U_day.csv
-Downloaded: level_3_sites/csv/day/RED_L_day.csv
-Downloaded: level_3_sites/csv/day/SCO_L_day.csv
-Downloaded: level_3_sites/csv/day/SCO_U_day.csv
-Downloaded: level_3_sites/csv/day/SDL_day.csv
-Downloaded: level_3_sites/csv/day/SDM_day.csv
-Downloaded: level_3_sites/csv/day/SER_B_day.csv
-Downloaded: level_3_sites/csv/day/SWC_day.csv
-Downloaded: level_3_sites/csv/day/TAS_A_day.csv
-Downloaded: level_3_sites/csv/day/TAS_L_day.csv
-Downloaded: level_3_sites/csv/day/TAS_U_day.csv
-Downloaded: level_3_sites/csv/day/THU_L_day.csv
-Downloaded: level_3_sites/csv/day/THU_L2_day.csv
-Downloaded: level_3_sites/csv/day/THU_U_day.csv
-Downloaded: level_3_sites/csv/day/TUN_day.csv
-Downloaded: level_3_sites/csv/day/UPE_L_day.csv
-Downloaded: level_3_sites/csv/day/UPE_U_day.csv
-Downloaded: level_3_sites/csv/day/UWN_day.csv
-Downloaded: level_3_sites/csv/day/WEG_B_day.csv
-Downloaded: level_3_sites/csv/day/WEG_L_day.csv
-Downloaded: level_3_sites/csv/day/ZAC_A_day.csv
-Downloaded: level_3_sites/csv/day/ZAC_L_day.csv
-Downloaded: level_3_sites/csv/day/ZAC_U_day.csv
-Downloaded: metadata/AWS_sites_metadata.csv
-Downloaded: metadata/AWS_variables.csv
-Downloaded: metadata/AWS_data_readme.pdf
-Downloaded: level_3_sites/csv/hour/CEN_hour.csv
-Downloaded: level_3_sites/csv/hour/CP1_hour.csv
-Downloaded: level_3_sites/csv/hour/DY2_hour.csv
-Downloaded: level_3_sites/csv/hour/EGP_hour.csv
-Downloaded: level_3_sites/csv/hour/FRE_hour.csv
-Downloaded: level_3_sites/csv/hour/HUM_hour.csv
-Downloaded: level_3_sites/csv/hour/JAR_hour.csv
-Downloaded: level_3_sites/csv/hour/KAN_B_hour.csv
-Downloaded: level_3_sites/csv/hour/KAN_L_hour.csv
-Downloaded: level_3_sites/csv/hour/KAN_M_hour.csv
-Downloaded: level_3_sites/csv/hour/KAN_T_hour.csv
-Downloaded: level_3_sites/csv/hour/KAN_U_hour.csv
-Downloaded: level_3_sites/csv/hour/KPC_L_hour.csv
-Downloaded: level_3_sites/csv/hour/KPC_U_hour.csv
-Downloaded: level_3_sites/csv/hour/LYN_L_hour.csv
-Downloaded: level_3_sites/csv/hour/LYN_T_hour.csv
-Downloaded: level_3_sites/csv/hour/MIT_hour.csv
-Downloaded: level_3_sites/csv/hour/NAE_hour.csv
-Downloaded: level_3_sites/csv/hour/NAU_hour.csv
-Downloaded: level_3_sites/csv/hour/NEM_hour.csv
-Downloaded: level_3_sites/csv/hour/NSE_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_B_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_K_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_L_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_N_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_P_hour.csv
-Downloaded: level_3_sites/csv/hour/NUK_U_hour.csv
-Downloaded: level_3_sites/csv/hour/ORO_hour.csv
-Downloaded: level_3_sites/csv/hour/QAS_A_hour.csv
-Downloaded: level_3_sites/csv/hour/QAS_L_hour.csv
-Downloaded: level_3_sites/csv/hour/QAS_M_hour.csv
-Downloaded: level_3_sites/csv/hour/QAS_U_hour.csv
-Downloaded: level_3_sites/csv/hour/RED_L_hour.csv
-Downloaded: level_3_sites/csv/hour/SCO_L_hour.csv
-Downloaded: level_3_sites/csv/hour/SCO_U_hour.csv
-Downloaded: level_3_sites/csv/hour/SDL_hour.csv
-Downloaded: level_3_sites/csv/hour/SDM_hour.csv
-Downloaded: level_3_sites/csv/hour/SER_B_hour.csv
-Downloaded: level_3_sites/csv/hour/SWC_hour.csv
-Downloaded: level_3_sites/csv/hour/TAS_A_hour.csv
-Downloaded: level_3_sites/csv/hour/TAS_L_hour.csv
-Downloaded: level_3_sites/csv/hour/TAS_U_hour.csv
-Downloaded: level_3_sites/csv/hour/THU_L_hour.csv
-Downloaded: level_3_sites/csv/hour/THU_L2_hour.csv
-Downloaded: level_3_sites/csv/hour/THU_U_hour.csv
-Downloaded: level_3_sites/csv/hour/TUN_hour.csv
-Downloaded: level_3_sites/csv/hour/UPE_L_hour.csv
-Downloaded: level_3_sites/csv/hour/UPE_U_hour.csv
-Downloaded: level_3_sites/csv/hour/UWN_hour.csv
-Downloaded: level_3_sites/csv/hour/WEG_B_hour.csv
-Downloaded: level_3_sites/csv/hour/WEG_L_hour.csv
-Downloaded: level_3_sites/csv/hour/ZAC_A_hour.csv
-Downloaded: level_3_sites/csv/hour/ZAC_L_hour.csv
-Downloaded: level_3_sites/csv/hour/ZAC_U_hour.csv
-[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
-Latest version: 33.0 -> /media/ice/Baptiste/geussnow01/dataverse/V33
-CSV files in /media/ice/Baptiste/geussnow01/dataverse/V33: 156
-[3/4] Download CSVs if needed
-CSV files in /media/ice/Baptiste/geussnow01/dataverse/V33: 156
-Dataverse folder looks OK; skipping download.
-[4/5] Run diagnostics + commit/push
-Already up to date.
-Plotting snow height:   0%|          | 0/48 [00:00<?, ?it/s]Plotting snow height:   2%|▏         | 1/48 [00:00<00:06,  7.38it/s]Plotting snow height:   4%|▍         | 2/48 [00:00<00:05,  7.86it/s]Plotting snow height:   6%|▋         | 3/48 [00:00<00:05,  8.25it/s]Plotting snow height:  10%|█         | 5/48 [00:00<00:04, 10.34it/s]Plotting snow height:  15%|█▍        | 7/48 [00:00<00:04,  9.44it/s]Plotting snow height:  19%|█▉        | 9/48 [00:00<00:04,  9.39it/s]Plotting snow height:  21%|██        | 10/48 [00:01<00:04,  9.08it/s]Plotting snow height:  25%|██▌       | 12/48 [00:01<00:03, 10.03it/s]Plotting snow height:  27%|██▋       | 13/48 [00:01<00:03,  9.67it/s]Plotting snow height:  29%|██▉       | 14/48 [00:01<00:03,  9.20it/s]Plotting snow height:  33%|███▎      | 16/48 [00:01<00:02, 11.09it/s]Plotting snow height:  38%|███▊      | 18/48 [00:01<00:03,  9.32it/s]Plotting snow height:  40%|███▉      | 19/48 [00:02<00:03,  9.08it/s]Plotting snow height:  44%|████▍     | 21/48 [00:02<00:02,  9.39it/s]Plotting snow height:  48%|████▊     | 23/48 [00:02<00:02,  9.52it/s]Plotting snow height:  52%|█████▏    | 25/48 [00:02<00:02, 10.23it/s]Plotting snow height:  56%|█████▋    | 27/48 [00:02<00:01, 10.84it/s]Plotting snow height:  60%|██████    | 29/48 [00:02<00:01, 10.59it/s]Plotting snow height:  65%|██████▍   | 31/48 [00:03<00:01, 10.85it/s]Plotting snow height:  69%|██████▉   | 33/48 [00:03<00:01, 10.03it/s]Plotting snow height:  73%|███████▎  | 35/48 [00:03<00:01,  9.36it/s]Plotting snow height:  77%|███████▋  | 37/48 [00:03<00:01,  9.60it/s]Plotting snow height:  81%|████████▏ | 39/48 [00:03<00:00, 10.96it/s]Plotting snow height:  85%|████████▌ | 41/48 [00:04<00:00, 10.48it/s]Plotting snow height:  90%|████████▉ | 43/48 [00:04<00:00,  9.88it/s]Plotting snow height:  94%|█████████▍| 45/48 [00:04<00:00, 10.66it/s]Plotting snow height:  98%|█████████▊| 47/48 [00:04<00:00, 11.66it/s]Plotting snow height: 100%|██████████| 48/48 [00:04<00:00, 10.16it/s]
-Plotting ablation:   0%|          | 0/31 [00:00<?, ?it/s]Plotting ablation:   6%|▋         | 2/31 [00:00<00:03,  8.78it/s]Plotting ablation:  10%|▉         | 3/31 [00:00<00:03,  9.01it/s]Plotting ablation:  13%|█▎        | 4/31 [00:00<00:02,  9.33it/s]Plotting ablation:  19%|█▉        | 6/31 [00:00<00:02, 12.32it/s]Plotting ablation:  26%|██▌       | 8/31 [00:00<00:01, 11.80it/s]Plotting ablation:  32%|███▏      | 10/31 [00:00<00:01, 11.97it/s]Plotting ablation:  39%|███▊      | 12/31 [00:01<00:01, 12.84it/s]Plotting ablation:  45%|████▌     | 14/31 [00:01<00:01, 13.55it/s]Plotting ablation:  52%|█████▏    | 16/31 [00:01<00:01, 13.35it/s]Plotting ablation:  58%|█████▊    | 18/31 [00:01<00:00, 14.28it/s]Plotting ablation:  65%|██████▍   | 20/31 [00:01<00:00, 11.28it/s]Plotting ablation:  71%|███████   | 22/31 [00:01<00:00, 11.63it/s]Plotting ablation:  77%|███████▋  | 24/31 [00:01<00:00, 12.53it/s]Plotting ablation:  84%|████████▍ | 26/31 [00:02<00:00, 13.81it/s]Plotting ablation:  90%|█████████ | 28/31 [00:02<00:00, 12.80it/s]Plotting ablation:  97%|█████████▋| 30/31 [00:02<00:00, 14.30it/s]Plotting ablation: 100%|██████████| 31/31 [00:02<00:00, 12.70it/s]
-Plotting t_u climatlogy:   0%|          | 0/54 [00:00<?, ?it/s]Plotting t_u climatlogy:   2%|▏         | 1/54 [00:00<00:05,  9.18it/s]Plotting t_u climatlogy:   4%|▎         | 2/54 [00:00<00:05,  8.93it/s]Plotting t_u climatlogy:   6%|▌         | 3/54 [00:00<00:05,  8.76it/s]Plotting t_u climatlogy:   9%|▉         | 5/54 [00:00<00:04, 12.04it/s]Plotting t_u climatlogy:  13%|█▎        | 7/54 [00:00<00:05,  9.36it/s]Plotting t_u climatlogy:  17%|█▋        | 9/54 [00:00<00:04, 10.10it/s]Plotting t_u climatlogy:  20%|██        | 11/54 [00:01<00:03, 11.72it/s]Plotting t_u climatlogy:  24%|██▍       | 13/54 [00:01<00:03, 11.14it/s]Plotting t_u climatlogy:  28%|██▊       | 15/54 [00:01<00:03, 12.15it/s]Plotting t_u climatlogy:  31%|███▏      | 17/54 [00:01<00:02, 13.73it/s]Plotting t_u climatlogy:  35%|███▌      | 19/54 [00:01<00:03, 10.01it/s]Plotting t_u climatlogy:  39%|███▉      | 21/54 [00:02<00:03,  8.84it/s]Plotting t_u climatlogy:  43%|████▎     | 23/54 [00:02<00:03, 10.29it/s]Plotting t_u climatlogy:  46%|████▋     | 25/54 [00:02<00:02, 10.70it/s]Plotting t_u climatlogy:  50%|█████     | 27/54 [00:02<00:02, 11.31it/s]Plotting t_u climatlogy:  56%|█████▌    | 30/54 [00:02<00:01, 13.15it/s]Plotting t_u climatlogy:  59%|█████▉    | 32/54 [00:02<00:01, 12.80it/s]Plotting t_u climatlogy:  63%|██████▎   | 34/54 [00:02<00:01, 13.82it/s]Plotting t_u climatlogy:  67%|██████▋   | 36/54 [00:03<00:01, 11.53it/s]Plotting t_u climatlogy:  70%|███████   | 38/54 [00:03<00:01, 11.37it/s]Plotting t_u climatlogy:  74%|███████▍  | 40/54 [00:03<00:01, 10.38it/s]Plotting t_u climatlogy:  78%|███████▊  | 42/54 [00:03<00:01, 11.47it/s]Plotting t_u climatlogy:  83%|████████▎ | 45/54 [00:03<00:00, 13.23it/s]Plotting t_u climatlogy:  87%|████████▋ | 47/54 [00:04<00:00, 11.45it/s]Plotting t_u climatlogy:  91%|█████████ | 49/54 [00:04<00:00, 12.59it/s]Plotting t_u climatlogy:  96%|█████████▋| 52/54 [00:04<00:00, 15.89it/s]Plotting t_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 15.01it/s]Plotting t_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 11.89it/s]
-Plotting rh_u climatlogy:   0%|          | 0/54 [00:00<?, ?it/s]Plotting rh_u climatlogy:   2%|▏         | 1/54 [00:00<00:08,  6.35it/s]Plotting rh_u climatlogy:   4%|▎         | 2/54 [00:00<00:08,  6.37it/s]Plotting rh_u climatlogy:   6%|▌         | 3/54 [00:00<00:07,  6.54it/s]Plotting rh_u climatlogy:   9%|▉         | 5/54 [00:00<00:04,  9.98it/s]Plotting rh_u climatlogy:  13%|█▎        | 7/54 [00:00<00:05,  8.43it/s]Plotting rh_u climatlogy:  15%|█▍        | 8/54 [00:01<00:08,  5.61it/s]Plotting rh_u climatlogy:  17%|█▋        | 9/54 [00:01<00:07,  6.28it/s]Plotting rh_u climatlogy:  20%|██        | 11/54 [00:01<00:04,  8.68it/s]Plotting rh_u climatlogy:  24%|██▍       | 13/54 [00:01<00:04,  9.35it/s]Plotting rh_u climatlogy:  28%|██▊       | 15/54 [00:01<00:03, 10.76it/s]Plotting rh_u climatlogy:  31%|███▏      | 17/54 [00:01<00:02, 12.67it/s]Plotting rh_u climatlogy:  35%|███▌      | 19/54 [00:02<00:03,  9.84it/s]Plotting rh_u climatlogy:  39%|███▉      | 21/54 [00:02<00:04,  7.08it/s]Plotting rh_u climatlogy:  44%|████▍     | 24/54 [00:02<00:03,  9.21it/s]Plotting rh_u climatlogy:  50%|█████     | 27/54 [00:02<00:02, 11.66it/s]Plotting rh_u climatlogy:  56%|█████▌    | 30/54 [00:03<00:01, 13.85it/s]Plotting rh_u climatlogy:  59%|█████▉    | 32/54 [00:03<00:01, 13.86it/s]Plotting rh_u climatlogy:  63%|██████▎   | 34/54 [00:03<00:01, 14.77it/s]Plotting rh_u climatlogy:  67%|██████▋   | 36/54 [00:03<00:01, 12.14it/s]Plotting rh_u climatlogy:  70%|███████   | 38/54 [00:03<00:01, 12.22it/s]Plotting rh_u climatlogy:  74%|███████▍  | 40/54 [00:03<00:01, 10.80it/s]Plotting rh_u climatlogy:  78%|███████▊  | 42/54 [00:04<00:01, 11.77it/s]Plotting rh_u climatlogy:  81%|████████▏ | 44/54 [00:04<00:00, 13.33it/s]Plotting rh_u climatlogy:  85%|████████▌ | 46/54 [00:04<00:00, 11.40it/s]Plotting rh_u climatlogy:  89%|████████▉ | 48/54 [00:04<00:00, 11.28it/s]Plotting rh_u climatlogy:  96%|█████████▋| 52/54 [00:04<00:00, 15.52it/s]Plotting rh_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 14.82it/s]Plotting rh_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 10.96it/s]
-Plotting p_u climatlogy:   0%|          | 0/54 [00:00<?, ?it/s]Plotting p_u climatlogy:   2%|▏         | 1/54 [00:00<00:13,  4.03it/s]Plotting p_u climatlogy:   4%|▎         | 2/54 [00:00<00:09,  5.31it/s]Plotting p_u climatlogy:   6%|▌         | 3/54 [00:00<00:08,  5.83it/s]Plotting p_u climatlogy:   9%|▉         | 5/54 [00:00<00:05,  9.14it/s]Plotting p_u climatlogy:  13%|█▎        | 7/54 [00:00<00:05,  7.91it/s]Plotting p_u climatlogy:  17%|█▋        | 9/54 [00:01<00:04,  9.13it/s]Plotting p_u climatlogy:  20%|██        | 11/54 [00:01<00:03, 11.08it/s]Plotting p_u climatlogy:  24%|██▍       | 13/54 [00:01<00:03, 11.02it/s]Plotting p_u climatlogy:  28%|██▊       | 15/54 [00:01<00:03, 12.10it/s]Plotting p_u climatlogy:  31%|███▏      | 17/54 [00:01<00:02, 13.81it/s]Plotting p_u climatlogy:  35%|███▌      | 19/54 [00:01<00:03, 10.38it/s]Plotting p_u climatlogy:  39%|███▉      | 21/54 [00:02<00:03,  9.81it/s]Plotting p_u climatlogy:  44%|████▍     | 24/54 [00:02<00:02, 11.84it/s]Plotting p_u climatlogy:  50%|█████     | 27/54 [00:02<00:01, 14.18it/s]Plotting p_u climatlogy:  56%|█████▌    | 30/54 [00:02<00:01, 16.04it/s]Plotting p_u climatlogy:  59%|█████▉    | 32/54 [00:02<00:01, 15.28it/s]Plotting p_u climatlogy:  63%|██████▎   | 34/54 [00:02<00:01, 15.88it/s]Plotting p_u climatlogy:  67%|██████▋   | 36/54 [00:03<00:01, 12.68it/s]Plotting p_u climatlogy:  70%|███████   | 38/54 [00:03<00:01, 12.48it/s]Plotting p_u climatlogy:  74%|███████▍  | 40/54 [00:03<00:01, 11.16it/s]Plotting p_u climatlogy:  78%|███████▊  | 42/54 [00:03<00:00, 12.13it/s]Plotting p_u climatlogy:  81%|████████▏ | 44/54 [00:03<00:00, 13.61it/s]Plotting p_u climatlogy:  85%|████████▌ | 46/54 [00:03<00:00, 11.69it/s]Plotting p_u climatlogy:  89%|████████▉ | 48/54 [00:04<00:00, 11.50it/s]Plotting p_u climatlogy:  96%|█████████▋| 52/54 [00:04<00:00, 15.64it/s]Plotting p_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 14.95it/s]Plotting p_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 12.06it/s]
-Plotting wspd_u climatlogy:   0%|          | 0/54 [00:00<?, ?it/s]Plotting wspd_u climatlogy:   2%|▏         | 1/54 [00:00<00:06,  8.59it/s]Plotting wspd_u climatlogy:   4%|▎         | 2/54 [00:00<00:06,  8.55it/s]Plotting wspd_u climatlogy:   6%|▌         | 3/54 [00:00<00:06,  8.50it/s]Plotting wspd_u climatlogy:  11%|█         | 6/54 [00:00<00:04, 11.73it/s]Plotting wspd_u climatlogy:  15%|█▍        | 8/54 [00:00<00:03, 12.24it/s]Plotting wspd_u climatlogy:  19%|█▊        | 10/54 [00:01<00:05,  7.43it/s]Plotting wspd_u climatlogy:  24%|██▍       | 13/54 [00:01<00:04,  9.95it/s]Plotting wspd_u climatlogy:  28%|██▊       | 15/54 [00:01<00:03, 11.40it/s]Plotting wspd_u climatlogy:  33%|███▎      | 18/54 [00:01<00:02, 12.49it/s]Plotting wspd_u climatlogy:  37%|███▋      | 20/54 [00:01<00:02, 12.02it/s]Plotting wspd_u climatlogy:  41%|████      | 22/54 [00:01<00:02, 13.08it/s]Plotting wspd_u climatlogy:  44%|████▍     | 24/54 [00:02<00:02, 13.74it/s]Plotting wspd_u climatlogy:  50%|█████     | 27/54 [00:02<00:01, 16.76it/s]Plotting wspd_u climatlogy:  56%|█████▌    | 30/54 [00:02<00:01, 19.35it/s]Plotting wspd_u climatlogy:  61%|██████    | 33/54 [00:02<00:01, 20.27it/s]Plotting wspd_u climatlogy:  67%|██████▋   | 36/54 [00:02<00:01, 15.27it/s]Plotting wspd_u climatlogy:  70%|███████   | 38/54 [00:02<00:01, 14.84it/s]Plotting wspd_u climatlogy:  74%|███████▍  | 40/54 [00:03<00:01, 12.93it/s]Plotting wspd_u climatlogy:  78%|███████▊  | 42/54 [00:03<00:00, 13.60it/s]Plotting wspd_u climatlogy:  83%|████████▎ | 45/54 [00:03<00:00, 14.62it/s]Plotting wspd_u climatlogy:  87%|████████▋ | 47/54 [00:03<00:00, 12.18it/s]Plotting wspd_u climatlogy:  91%|█████████ | 49/54 [00:03<00:00, 13.14it/s]Plotting wspd_u climatlogy:  96%|█████████▋| 52/54 [00:03<00:00, 16.04it/s]Plotting wspd_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 15.18it/s]Plotting wspd_u climatlogy: 100%|██████████| 54/54 [00:04<00:00, 13.38it/s]
-[main 520acc6] Update dataset version comparison (Dataverse 33.0)
- 8 files changed, 191 insertions(+)
- create mode 100644 logs/make_dataverse_update_plots_20260131.log
-To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
-   451c64c..520acc6  main -> main

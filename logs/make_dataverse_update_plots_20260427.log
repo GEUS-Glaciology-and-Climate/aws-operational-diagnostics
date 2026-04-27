@@ -1,0 +1,165 @@
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 25, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+bash: SKIP_THREDDS=1: No such file or directory
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 25, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 25, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+/home/bav/miniforge3/bin/python
+/home/bav/miniforge3/bin/python
+1.1.3
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 25, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+1:#!/usr/bin/env bash
+5:eval "$(/home/bav/miniforge3/bin/conda shell.bash hook)"
+6:conda activate base
+8:grep -nE "python|python3|/usr/bin/env|conda|mamba" /home/bav/aws-operational-diagnostics/make_dataverse_update_plots.sh
+11:CONDA=/home/bav/miniforge3/bin/conda
+12:PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 25, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+1:#!/usr/bin/env bash
+5:eval "$(/home/bav/miniforge3/bin/conda shell.bash hook)"
+6:conda activate base
+8:grep -nE "python|python3|/usr/bin/env|conda|mamba" /home/bav/aws-operational-diagnostics/make_dataverse_update_plots.sh
+11:CONDA=/home/bav/miniforge3/bin/conda
+12:PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/pyproj/network.py:59: UserWarning: pyproj unable to set PROJ database path.
+  _set_context_ca_bundle_path(ca_bundle_path)
+Traceback (most recent call last):
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 520, in <module>
+    main(path_thredds=args.path_thredds)
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 468, in main
+    plot_grouped_mosaic(
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 362, in plot_grouped_mosaic
+    station_points = load_station_points(path_meta) if path_meta else None
+  File "/home/bav/aws-operational-diagnostics/climatologies_transects.py", line 296, in load_station_points
+    gdf = gpd.GeoDataFrame(
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/geopandas/geodataframe.py", line 243, in __init__
+    self.set_geometry(geometry, inplace=True, crs=crs)
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/geopandas/geodataframe.py", line 464, in set_geometry
+    level = _ensure_geometry(level, crs=crs)
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/geopandas/geodataframe.py", line 62, in _ensure_geometry
+    data.crs = crs
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/geopandas/array.py", line 395, in crs
+    self._crs = None if not value else CRS.from_user_input(value)
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/pyproj/crs/crs.py", line 503, in from_user_input
+    return cls(value, **kwargs)
+  File "/home/bav/miniforge3/envs/bav/lib/python3.10/site-packages/pyproj/crs/crs.py", line 350, in __init__
+    self._local.crs = _CRS(self.srs)
+  File "pyproj/_crs.pyx", line 2364, in pyproj._crs._CRS.__init__
+pyproj.exceptions.CRSError: Invalid projection: EPSG:4326: (Internal Proj Error: proj_create: no database context specified)
+1:#!/usr/bin/env bash
+5:eval "$(/home/bav/miniforge3/bin/conda shell.bash hook)"
+6:conda activate base
+8:grep -nE "python|python3|/usr/bin/env|conda|mamba" /home/bav/aws-operational-diagnostics/make_dataverse_update_plots.sh
+11:CONDA=/home/bav/miniforge3/bin/conda
+12:PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
+[1/4] Skipping thredds update
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+PuTTY X11 proxy: unable to connect to forwarded X server: Network error: Connection refused
+
+/home/bav/aws-operational-diagnostics/climatologies_transects.py:369: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7, 3 * 1.7))
+Saved : figures/climatology/snow_height_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/snow_height_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/snow_height_SCO_L_SCO_U.png
+Saved : figures/climatology/snow_height_KPC_L_KPC_U.png
+Saved : figures/climatology/snow_height_JAR_SWC.png
+Saved : figures/climatology/snow_height_TAS_L_TAS_A.png
+Saved : figures/climatology/snow_height_THU_L_THU_U.png
+Saved : figures/climatology/snow_height_NUK_L_NUK_U.png
+Saved : figures/climatology/snow_height_UPE_L_UPE_U.png
+Saved : figures/climatology/snow_height_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_u_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_u_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_u_SCO_L_SCO_U.png
+Saved : figures/climatology/t_u_KPC_L_KPC_U.png
+Saved : figures/climatology/t_u_JAR_SWC.png
+Saved : figures/climatology/t_u_TAS_L_TAS_A.png
+Saved : figures/climatology/t_u_THU_L_THU_U.png
+Saved : figures/climatology/t_u_NUK_L_NUK_U.png
+Saved : figures/climatology/t_u_UPE_L_UPE_U.png
+Saved : figures/climatology/t_u_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_surf_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_surf_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_surf_SCO_L_SCO_U.png
+Saved : figures/climatology/t_surf_KPC_L_KPC_U.png
+Saved : figures/climatology/t_surf_JAR_SWC.png
+Saved : figures/climatology/t_surf_TAS_L_TAS_A.png
+Saved : figures/climatology/t_surf_THU_L_THU_U.png
+Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
+Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
+Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
+Saved: plot_compilations/all_station_plots.md
