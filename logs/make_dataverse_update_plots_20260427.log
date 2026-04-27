@@ -163,3 +163,307 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+[main 89a4f059] Update dataset version comparison (Dataverse 36.0)
+ 1752 files changed, 8215 insertions(+), 275184 deletions(-)
+ delete mode 100644 logs/make_dataverse_update_plots_20260126.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260127.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260128.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260129.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260130.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260131.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260201.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260202.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260203.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260204.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260205.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260206.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260207.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260208.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260209.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260210.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260211.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260212.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260213.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260214.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260215.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260216.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260217.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260218.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260219.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260220.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260221.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260222.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260223.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260224.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260225.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260226.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260227.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260228.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260301.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260302.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260303.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260304.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260305.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260306.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260307.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260308.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260309.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260310.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260311.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260312.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260313.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260314.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260315.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260316.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260317.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260318.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260319.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260320.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260321.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260322.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260323.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260324.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260325.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260326.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260327.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260328.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260329.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260330.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260331.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260401.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260402.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260403.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260404.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260405.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260406.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260407.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260408.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260409.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260410.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260411.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260412.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260413.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260414.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260415.log
+ delete mode 100644 logs/make_dataverse_update_plots_20260416.log
+ rename logs/{make_dataverse_update_plots_20260418.log => make_dataverse_update_plots_20260423.log} (94%)
+ create mode 100644 logs/make_dataverse_update_plots_20260424.log
+ rename logs/{make_dataverse_update_plots_20260419.log => make_dataverse_update_plots_20260425.log} (94%)
+ rename logs/{make_dataverse_update_plots_20260417.log => make_dataverse_update_plots_20260426.log} (94%)
+ create mode 100644 logs/make_dataverse_update_plots_20260427.log
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   6da8e6c1..89a4f059  main -> main
+[1/4] Run thredds_download.py
+Downloaded: metadata/AWS_sites_metadata.csv
+Downloaded: metadata/AWS_variables.csv
+Downloaded: metadata/AWS_data_readme.pdf
+Downloaded: level_3_sites/csv/month/CEN_month.csv
+Downloaded: level_3_sites/csv/month/CP1_month.csv
+Downloaded: level_3_sites/csv/month/DY2_month.csv
+Downloaded: level_3_sites/csv/month/EGP_month.csv
+Downloaded: level_3_sites/csv/month/FRE_month.csv
+Downloaded: level_3_sites/csv/month/HUM_month.csv
+Downloaded: level_3_sites/csv/month/JAR_month.csv
+Downloaded: level_3_sites/csv/month/KAN_B_month.csv
+Downloaded: level_3_sites/csv/month/KAN_L_month.csv
+Downloaded: level_3_sites/csv/month/KAN_M_month.csv
+Downloaded: level_3_sites/csv/month/KAN_T_month.csv
+Downloaded: level_3_sites/csv/month/KAN_U_month.csv
+Downloaded: level_3_sites/csv/month/KPC_L_month.csv
+Downloaded: level_3_sites/csv/month/KPC_U_month.csv
+Downloaded: level_3_sites/csv/month/LYN_L_month.csv
+Downloaded: level_3_sites/csv/month/LYN_T_month.csv
+Downloaded: level_3_sites/csv/month/MIT_month.csv
+Downloaded: level_3_sites/csv/month/NAE_month.csv
+Downloaded: level_3_sites/csv/month/NAU_month.csv
+Downloaded: level_3_sites/csv/month/NEM_month.csv
+Downloaded: level_3_sites/csv/month/NSE_month.csv
+Downloaded: level_3_sites/csv/month/NUK_B_month.csv
+Downloaded: level_3_sites/csv/month/NUK_K_month.csv
+Downloaded: level_3_sites/csv/month/NUK_L_month.csv
+Downloaded: level_3_sites/csv/month/NUK_N_month.csv
+Downloaded: level_3_sites/csv/month/NUK_P_month.csv
+Downloaded: level_3_sites/csv/month/NUK_U_month.csv
+Downloaded: level_3_sites/csv/month/ORO_month.csv
+Downloaded: level_3_sites/csv/month/QAS_A_month.csv
+Downloaded: level_3_sites/csv/month/QAS_L_month.csv
+Downloaded: level_3_sites/csv/month/QAS_M_month.csv
+Downloaded: level_3_sites/csv/month/QAS_U_month.csv
+Downloaded: level_3_sites/csv/month/RED_L_month.csv
+Downloaded: level_3_sites/csv/month/SCO_L_month.csv
+Downloaded: level_3_sites/csv/month/SCO_U_month.csv
+Downloaded: level_3_sites/csv/month/SDL_month.csv
+Downloaded: level_3_sites/csv/month/SDM_month.csv
+Downloaded: level_3_sites/csv/month/SER_B_month.csv
+Downloaded: level_3_sites/csv/month/SWC_month.csv
+Downloaded: level_3_sites/csv/month/TAS_A_month.csv
+Downloaded: level_3_sites/csv/month/TAS_L_month.csv
+Downloaded: level_3_sites/csv/month/TAS_U_month.csv
+Downloaded: level_3_sites/csv/month/THU_L_month.csv
+Downloaded: level_3_sites/csv/month/THU_L2_month.csv
+Downloaded: level_3_sites/csv/month/THU_U_month.csv
+Downloaded: level_3_sites/csv/month/TUN_month.csv
+Downloaded: level_3_sites/csv/month/UPE_L_month.csv
+Downloaded: level_3_sites/csv/month/UPE_U_month.csv
+Downloaded: level_3_sites/csv/month/UWN_month.csv
+Downloaded: level_3_sites/csv/month/WEG_B_month.csv
+Downloaded: level_3_sites/csv/month/WEG_L_month.csv
+Downloaded: level_3_sites/csv/month/ZAC_A_month.csv
+Downloaded: level_3_sites/csv/month/ZAC_L_month.csv
+Downloaded: level_3_sites/csv/month/ZAC_U_month.csv
+Downloaded: metadata/AWS_sites_metadata.csv
+Downloaded: metadata/AWS_variables.csv
+Downloaded: metadata/AWS_data_readme.pdf
+Downloaded: level_3_sites/csv/day/CEN_day.csv
+Downloaded: level_3_sites/csv/day/CP1_day.csv
+Downloaded: level_3_sites/csv/day/DY2_day.csv
+Downloaded: level_3_sites/csv/day/EGP_day.csv
+Downloaded: level_3_sites/csv/day/FRE_day.csv
+Downloaded: level_3_sites/csv/day/HUM_day.csv
+Downloaded: level_3_sites/csv/day/JAR_day.csv
+Downloaded: level_3_sites/csv/day/KAN_B_day.csv
+Downloaded: level_3_sites/csv/day/KAN_L_day.csv
+Downloaded: level_3_sites/csv/day/KAN_M_day.csv
+Downloaded: level_3_sites/csv/day/KAN_T_day.csv
+Downloaded: level_3_sites/csv/day/KAN_U_day.csv
+Downloaded: level_3_sites/csv/day/KPC_L_day.csv
+Downloaded: level_3_sites/csv/day/KPC_U_day.csv
+Downloaded: level_3_sites/csv/day/LYN_L_day.csv
+Downloaded: level_3_sites/csv/day/LYN_T_day.csv
+Downloaded: level_3_sites/csv/day/MIT_day.csv
+Downloaded: level_3_sites/csv/day/NAE_day.csv
+Downloaded: level_3_sites/csv/day/NAU_day.csv
+Downloaded: level_3_sites/csv/day/NEM_day.csv
+Downloaded: level_3_sites/csv/day/NSE_day.csv
+Downloaded: level_3_sites/csv/day/NUK_B_day.csv
+Downloaded: level_3_sites/csv/day/NUK_K_day.csv
+Downloaded: level_3_sites/csv/day/NUK_L_day.csv
+Downloaded: level_3_sites/csv/day/NUK_N_day.csv
+Downloaded: level_3_sites/csv/day/NUK_P_day.csv
+Downloaded: level_3_sites/csv/day/NUK_U_day.csv
+Downloaded: level_3_sites/csv/day/ORO_day.csv
+Downloaded: level_3_sites/csv/day/QAS_A_day.csv
+Downloaded: level_3_sites/csv/day/QAS_L_day.csv
+Downloaded: level_3_sites/csv/day/QAS_M_day.csv
+Downloaded: level_3_sites/csv/day/QAS_U_day.csv
+Downloaded: level_3_sites/csv/day/RED_L_day.csv
+Downloaded: level_3_sites/csv/day/SCO_L_day.csv
+Downloaded: level_3_sites/csv/day/SCO_U_day.csv
+Downloaded: level_3_sites/csv/day/SDL_day.csv
+Downloaded: level_3_sites/csv/day/SDM_day.csv
+Downloaded: level_3_sites/csv/day/SER_B_day.csv
+Downloaded: level_3_sites/csv/day/SWC_day.csv
+Downloaded: level_3_sites/csv/day/TAS_A_day.csv
+Downloaded: level_3_sites/csv/day/TAS_L_day.csv
+Downloaded: level_3_sites/csv/day/TAS_U_day.csv
+Downloaded: level_3_sites/csv/day/THU_L_day.csv
+Downloaded: level_3_sites/csv/day/THU_L2_day.csv
+Downloaded: level_3_sites/csv/day/THU_U_day.csv
+Downloaded: level_3_sites/csv/day/TUN_day.csv
+Downloaded: level_3_sites/csv/day/UPE_L_day.csv
+Downloaded: level_3_sites/csv/day/UPE_U_day.csv
+Downloaded: level_3_sites/csv/day/UWN_day.csv
+Downloaded: level_3_sites/csv/day/WEG_B_day.csv
+Downloaded: level_3_sites/csv/day/WEG_L_day.csv
+Downloaded: level_3_sites/csv/day/ZAC_A_day.csv
+Downloaded: level_3_sites/csv/day/ZAC_L_day.csv
+Downloaded: level_3_sites/csv/day/ZAC_U_day.csv
+Downloaded: metadata/AWS_sites_metadata.csv
+Downloaded: metadata/AWS_variables.csv
+Downloaded: metadata/AWS_data_readme.pdf
+Downloaded: level_3_sites/csv/hour/CEN_hour.csv
+Downloaded: level_3_sites/csv/hour/CP1_hour.csv
+Downloaded: level_3_sites/csv/hour/DY2_hour.csv
+Downloaded: level_3_sites/csv/hour/EGP_hour.csv
+Downloaded: level_3_sites/csv/hour/FRE_hour.csv
+Downloaded: level_3_sites/csv/hour/HUM_hour.csv
+Downloaded: level_3_sites/csv/hour/JAR_hour.csv
+Downloaded: level_3_sites/csv/hour/KAN_B_hour.csv
+Downloaded: level_3_sites/csv/hour/KAN_L_hour.csv
+Downloaded: level_3_sites/csv/hour/KAN_M_hour.csv
+Downloaded: level_3_sites/csv/hour/KAN_T_hour.csv
+Downloaded: level_3_sites/csv/hour/KAN_U_hour.csv
+Downloaded: level_3_sites/csv/hour/KPC_L_hour.csv
+Downloaded: level_3_sites/csv/hour/KPC_U_hour.csv
+Downloaded: level_3_sites/csv/hour/LYN_L_hour.csv
+Downloaded: level_3_sites/csv/hour/LYN_T_hour.csv
+Downloaded: level_3_sites/csv/hour/MIT_hour.csv
+Downloaded: level_3_sites/csv/hour/NAE_hour.csv
+Downloaded: level_3_sites/csv/hour/NAU_hour.csv
+Downloaded: level_3_sites/csv/hour/NEM_hour.csv
+Downloaded: level_3_sites/csv/hour/NSE_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_B_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_K_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_L_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_N_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_P_hour.csv
+Downloaded: level_3_sites/csv/hour/NUK_U_hour.csv
+Downloaded: level_3_sites/csv/hour/ORO_hour.csv
+Downloaded: level_3_sites/csv/hour/QAS_A_hour.csv
+Downloaded: level_3_sites/csv/hour/QAS_L_hour.csv
+Downloaded: level_3_sites/csv/hour/QAS_M_hour.csv
+Downloaded: level_3_sites/csv/hour/QAS_U_hour.csv
+Downloaded: level_3_sites/csv/hour/RED_L_hour.csv
+Downloaded: level_3_sites/csv/hour/SCO_L_hour.csv
+Downloaded: level_3_sites/csv/hour/SCO_U_hour.csv
+Downloaded: level_3_sites/csv/hour/SDL_hour.csv
+Downloaded: level_3_sites/csv/hour/SDM_hour.csv
+Downloaded: level_3_sites/csv/hour/SER_B_hour.csv
+Downloaded: level_3_sites/csv/hour/SWC_hour.csv
+Downloaded: level_3_sites/csv/hour/TAS_A_hour.csv
+Downloaded: level_3_sites/csv/hour/TAS_L_hour.csv
+Downloaded: level_3_sites/csv/hour/TAS_U_hour.csv
+Downloaded: level_3_sites/csv/hour/THU_L_hour.csv
+Downloaded: level_3_sites/csv/hour/THU_L2_hour.csv
+Downloaded: level_3_sites/csv/hour/THU_U_hour.csv
+Downloaded: level_3_sites/csv/hour/TUN_hour.csv
+Downloaded: level_3_sites/csv/hour/UPE_L_hour.csv
+Downloaded: level_3_sites/csv/hour/UPE_U_hour.csv
+Downloaded: level_3_sites/csv/hour/UWN_hour.csv
+Downloaded: level_3_sites/csv/hour/WEG_B_hour.csv
+Downloaded: level_3_sites/csv/hour/WEG_L_hour.csv
+Downloaded: level_3_sites/csv/hour/ZAC_A_hour.csv
+Downloaded: level_3_sites/csv/hour/ZAC_L_hour.csv
+Downloaded: level_3_sites/csv/hour/ZAC_U_hour.csv
+[2/4] Resolve latest Dataverse version for doi:10.22008/FK2/IW73UU
+Latest version: 36.0 -> /media/ice/Baptiste/geussnow01/dataverse/V36
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+[3/4] Download CSVs if needed
+CSV files in /media/ice/Baptiste/geussnow01/dataverse/V36: 156
+Dataverse folder looks OK; skipping download.
+[4/5] Run diagnostics + commit/push
+Already up to date.
+ERROR 1: PROJ: proj_create_from_database: Open of /home/bav/miniforge3/envs/bav/share/proj failed
+/home/bav/aws-operational-diagnostics/climatologies_transects.py:369: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7, 3 * 1.7))
+Saved : figures/climatology/snow_height_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/snow_height_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/snow_height_SCO_L_SCO_U.png
+Saved : figures/climatology/snow_height_KPC_L_KPC_U.png
+Saved : figures/climatology/snow_height_JAR_SWC.png
+Saved : figures/climatology/snow_height_TAS_L_TAS_A.png
+Saved : figures/climatology/snow_height_THU_L_THU_U.png
+Saved : figures/climatology/snow_height_NUK_L_NUK_U.png
+Saved : figures/climatology/snow_height_UPE_L_UPE_U.png
+Saved : figures/climatology/snow_height_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_u_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_u_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_u_SCO_L_SCO_U.png
+Saved : figures/climatology/t_u_KPC_L_KPC_U.png
+Saved : figures/climatology/t_u_JAR_SWC.png
+Saved : figures/climatology/t_u_TAS_L_TAS_A.png
+Saved : figures/climatology/t_u_THU_L_THU_U.png
+Saved : figures/climatology/t_u_NUK_L_NUK_U.png
+Saved : figures/climatology/t_u_UPE_L_UPE_U.png
+Saved : figures/climatology/t_u_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_surf_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_surf_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_surf_SCO_L_SCO_U.png
+Saved : figures/climatology/t_surf_KPC_L_KPC_U.png
+Saved : figures/climatology/t_surf_JAR_SWC.png
+Saved : figures/climatology/t_surf_TAS_L_TAS_A.png
+Saved : figures/climatology/t_surf_THU_L_THU_U.png
+Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
+Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
+Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
+Saved: plot_compilations/all_station_plots.md

@@ -2,12 +2,6 @@
 set -eu
 cd /home/bav/aws-operational-diagnostics
 
-eval "$(/home/bav/miniforge3/bin/conda shell.bash hook)"
-conda activate base
-
-grep -nE "python|python3|/usr/bin/env|conda|mamba" /home/bav/aws-operational-diagnostics/make_dataverse_update_plots.sh
-
-
 CONDA=/home/bav/miniforge3/bin/conda
 PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
 
