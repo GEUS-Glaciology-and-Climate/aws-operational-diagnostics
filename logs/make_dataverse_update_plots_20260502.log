@@ -212,8 +212,3 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
-[main 34c7dbc1] Update dataset version comparison (Dataverse 36.0)
- 31 files changed, 219 insertions(+)
- create mode 100644 logs/make_dataverse_update_plots_20260501.log
-To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
-   41a9bd8a..34c7dbc1  main -> main
