@@ -23,8 +23,8 @@ matplotlib.use('Agg')
 import tocgen
 
 def main(old_version = 'V33',
-         path_to_thredds='/media/ice/Baptiste/geussnow01/thredds-data/',
-         path_to_dataverse='/media/ice/Baptiste/geussnow01/dataverse/'):
+         path_to_thredds='/mnt/ice/Baptiste/geussnow01/thredds-data/',
+         path_to_dataverse='/mnt/ice/Baptiste/geussnow01/dataverse/'):
     new_version = 'thredds'
     for res in ['month','day','hour']:
     # for res in ['hour']:

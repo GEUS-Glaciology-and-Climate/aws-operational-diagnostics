@@ -75,7 +75,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Download CSV files only from a Dataverse dataset (latest version).")
     ap.add_argument("--base", default="https://dataverse.geus.dk", help="Dataverse base URL")
     ap.add_argument("--pid", required=True, help="Dataset persistentId, e.g. doi:10.22008/FK2/IW73UU")
-    ap.add_argument("--outroot", required=True, help="Output root folder, e.g. /media/ice/.../dataverse")
+    ap.add_argument("--outroot", required=True, help="Output root folder, e.g. /mnt/ice/.../dataverse")
     ap.add_argument("--min-csv", type=int, default=30, help="Minimum expected CSV count (sanity check)")
     ap.add_argument("--token", default=os.environ.get("DATAVERSE_TOKEN", ""), help="Dataverse API token (optional)")
     ap.add_argument("--timeout", type=int, default=120, help="HTTP timeout seconds")
