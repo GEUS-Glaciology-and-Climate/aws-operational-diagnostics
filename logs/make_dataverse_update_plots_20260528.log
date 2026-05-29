@@ -1,0 +1,2 @@
+[1/4] Run thredds_download.py
+make_dataverse_update_plots.sh: line 29: cd: /media/ice/Baptiste/geussnow01/thredds-data: Host is down
