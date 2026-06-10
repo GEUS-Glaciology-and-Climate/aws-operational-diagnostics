@@ -104,7 +104,7 @@ def weather_transform(d, var, focus_year):
 
 def default_style():
     return { "grid": True, "xlim": None, "ylim": None, "ylabel": "",
-        "ticks": None, "ticklabels": None, "rotation": 45 }
+        "ticks": None, "ticklabels": None, "rotation": 45, "legend_loc": "lower right" }
 
 
 def snow_style():
@@ -118,7 +118,7 @@ def snow_style():
     ]
     s = default_style()
     s.update( { "xlim": (1, 365), "ylim": (0, None), "ylabel": "Snow height (m)",
-            "ticks": ticks, "ticklabels": labels, } )
+            "ticks": ticks, "ticklabels": labels, "legend_loc": "upper left" } )
     return s
 
 
@@ -138,6 +138,7 @@ def ablation_style():
             "ylabel": "Ablation (m)",
             "ticks": ticks,
             "ticklabels": labels,
+            "legend_loc": "lower right",
         }
     )
     return s
@@ -154,7 +155,7 @@ def weather_style(var):
              't_surf': 'Surface temperature (°C)'
              }
     s.update(  { "xlim": (1, 366),  "ylabel": label[var], "ticks": ticks,
-                "ticklabels": labels })
+                "ticklabels": labels, "legend_loc": "lower right" })
     return s
 
 
@@ -223,7 +224,7 @@ def plot_station_panel(ax, series_by_year, title, year_color, focus_year, style)
     ax.plot(np.nan, np.nan,color='#7ec1dc', lw=1.2, zorder=2,
          label = f'{np.min(yrs)} - {np.max(yrs)}')
 
-    ax.legend(loc='lower right', fontsize=8)
+    ax.legend(loc=style.get("legend_loc", "lower right"), fontsize=8)
 
     ax.set_title(title)
     if style["grid"]:
@@ -476,16 +477,16 @@ def main(path_thredds):
         path_ice=path_ice,
     )
 
-    # plot_grouped_mosaic(
-    #     station_groups=station_groups,
-    #     path_csv_dir=path_csv_dir,
-    #     out_png="figures/ablation",
-    #     kind="ablation",
-    #     focus_year=2026,
-    #     path_meta=path_meta,
-    #     path_greenland=path_greenland,
-    #     path_ice=path_ice,
-    # )
+    plot_grouped_mosaic(
+        station_groups=station_groups,
+        path_csv_dir=path_csv_dir,
+        out_png="figures/climatology/ablation_",
+        kind="ablation",
+        focus_year=2026,
+        path_meta=path_meta,
+        path_greenland=path_greenland,
+        path_ice=path_ice,
+    )
 
     for var in ["t_u", "t_surf"]: #, "p_u", "wspd_u"]:
         plot_grouped_mosaic(
@@ -504,7 +505,7 @@ def main(path_thredds):
         station_groups=station_groups,
         out_dir="./plot_compilations",
         filename="all_station_plots.md",
-        kinds=["snow_height", "t_u", "t_surf"],
+        kinds=["snow_height", "ablation", "t_u", "t_surf"],
     )
 
 
