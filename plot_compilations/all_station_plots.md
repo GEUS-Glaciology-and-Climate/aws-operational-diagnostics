@@ -42,6 +42,48 @@
 
 ![snow_height_ZAC_L_ZAC_U_ZAC_A.png](../figures/climatology/snow_height_ZAC_L_ZAC_U_ZAC_A.png)
 
+## Ablation
+
+### KAN_T – KAN_L – KAN_M – KAN_U
+
+![ablation_KAN_T_KAN_L_KAN_M_KAN_U.png](../figures/climatology/ablation_KAN_T_KAN_L_KAN_M_KAN_U.png)
+
+### QAS_L – QAS_M – QAS_U
+
+![ablation_QAS_L_QAS_M_QAS_U.png](../figures/climatology/ablation_QAS_L_QAS_M_QAS_U.png)
+
+### SCO_L – SCO_U
+
+![ablation_SCO_L_SCO_U.png](../figures/climatology/ablation_SCO_L_SCO_U.png)
+
+### KPC_L – KPC_U
+
+![ablation_KPC_L_KPC_U.png](../figures/climatology/ablation_KPC_L_KPC_U.png)
+
+### JAR – SWC
+
+![ablation_JAR_SWC.png](../figures/climatology/ablation_JAR_SWC.png)
+
+### TAS_L – TAS_A
+
+![ablation_TAS_L_TAS_A.png](../figures/climatology/ablation_TAS_L_TAS_A.png)
+
+### THU_L – THU_U
+
+![ablation_THU_L_THU_U.png](../figures/climatology/ablation_THU_L_THU_U.png)
+
+### NUK_L – NUK_U
+
+![ablation_NUK_L_NUK_U.png](../figures/climatology/ablation_NUK_L_NUK_U.png)
+
+### UPE_L – UPE_U
+
+![ablation_UPE_L_UPE_U.png](../figures/climatology/ablation_UPE_L_UPE_U.png)
+
+### ZAC_L – ZAC_U – ZAC_A
+
+![ablation_ZAC_L_ZAC_U_ZAC_A.png](../figures/climatology/ablation_ZAC_L_ZAC_U_ZAC_A.png)
+
 ## T U
 
 ### KAN_T – KAN_L – KAN_M – KAN_U
