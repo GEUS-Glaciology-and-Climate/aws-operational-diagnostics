@@ -3973,3 +3973,18 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+[main 342826dc4] Update dataset version comparison (Dataverse 38.0)
+ 1415 files changed, 4021 insertions(+)
+ create mode 100644 figures/climatology/ablation_JAR_SWC.png
+ create mode 100644 figures/climatology/ablation_KAN_T_KAN_L_KAN_M_KAN_U.png
+ create mode 100644 figures/climatology/ablation_KPC_L_KPC_U.png
+ create mode 100644 figures/climatology/ablation_NUK_L_NUK_U.png
+ create mode 100644 figures/climatology/ablation_QAS_L_QAS_M_QAS_U.png
+ create mode 100644 figures/climatology/ablation_SCO_L_SCO_U.png
+ create mode 100644 figures/climatology/ablation_TAS_L_TAS_A.png
+ create mode 100644 figures/climatology/ablation_THU_L_THU_U.png
+ create mode 100644 figures/climatology/ablation_UPE_L_UPE_U.png
+ create mode 100644 figures/climatology/ablation_ZAC_L_ZAC_U_ZAC_A.png
+ create mode 100644 logs/make_dataverse_update_plots_20260610.log
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   93a7121f4..342826dc4  main -> main
