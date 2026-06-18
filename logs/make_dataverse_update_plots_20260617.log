@@ -4257,3 +4257,20 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main a1b61a64c] Update dataset version comparison (Dataverse 38.0)
+ 1717 files changed, 5132 insertions(+), 806 deletions(-)
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/CEN_17.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/EGP_16.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/JAR_16.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/KAN_U_17.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/LYN_L_10.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/NUK_B_8.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/RED_L_13.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/SER_B_8.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/SWC_16.png
+ create mode 100644 figures/version_comparisons/V38_versus_thredds_hour/WEG_B_8.png
+ create mode 100644 logs/make_dataverse_update_plots_20260617.log
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   31a47601c..a1b61a64c  main -> main
