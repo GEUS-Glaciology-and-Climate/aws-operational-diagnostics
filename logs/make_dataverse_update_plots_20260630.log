@@ -4257,3 +4257,10 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main a748075c7] Update dataset version comparison (Dataverse 38.0)
+ 1685 files changed, 4264 insertions(+)
+ create mode 100644 logs/make_dataverse_update_plots_20260630.log
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   d79003266..a748075c7  main -> main
