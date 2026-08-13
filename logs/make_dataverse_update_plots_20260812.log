@@ -4393,3 +4393,68 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main bab3a6315] Update dataset version comparison (Dataverse 39.0)
+ 1969 files changed, 4978 insertions(+), 226 deletions(-)
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_0.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_1.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_2.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_3.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_4.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_5.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_day/MIT_B_6.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_0.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_1.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_2.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_3.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_4.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_5.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_6.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_7.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_hour/MIT_B_8.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_0.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_1.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_2.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_3.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_4.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_5.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/MIT_B_6.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_10.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_11.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_12.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_13.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_8.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/STA_9.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_10.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_11.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_12.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_13.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_8.png
+ create mode 100644 figures/version_comparisons/V39_versus_thredds_month/SUM_9.png
+ create mode 100644 logs/make_dataverse_update_plots_20260720.log
+ create mode 100644 logs/make_dataverse_update_plots_20260721.log
+ create mode 100644 logs/make_dataverse_update_plots_20260722.log
+ create mode 100644 logs/make_dataverse_update_plots_20260723.log
+ create mode 100644 logs/make_dataverse_update_plots_20260724.log
+ create mode 100644 logs/make_dataverse_update_plots_20260725.log
+ create mode 100644 logs/make_dataverse_update_plots_20260726.log
+ create mode 100644 logs/make_dataverse_update_plots_20260727.log
+ create mode 100644 logs/make_dataverse_update_plots_20260728.log
+ create mode 100644 logs/make_dataverse_update_plots_20260729.log
+ create mode 100644 logs/make_dataverse_update_plots_20260730.log
+ create mode 100644 logs/make_dataverse_update_plots_20260731.log
+ create mode 100644 logs/make_dataverse_update_plots_20260801.log
+ create mode 100644 logs/make_dataverse_update_plots_20260802.log
+ create mode 100644 logs/make_dataverse_update_plots_20260803.log
+ create mode 100644 logs/make_dataverse_update_plots_20260804.log
+ create mode 100644 logs/make_dataverse_update_plots_20260805.log
+ create mode 100644 logs/make_dataverse_update_plots_20260806.log
+ create mode 100644 logs/make_dataverse_update_plots_20260807.log
+ create mode 100644 logs/make_dataverse_update_plots_20260808.log
+ create mode 100644 logs/make_dataverse_update_plots_20260809.log
+ create mode 100644 logs/make_dataverse_update_plots_20260810.log
+ create mode 100644 logs/make_dataverse_update_plots_20260811.log
+ create mode 100644 logs/make_dataverse_update_plots_20260812.log
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   0d8392d4d..bab3a6315  main -> main
