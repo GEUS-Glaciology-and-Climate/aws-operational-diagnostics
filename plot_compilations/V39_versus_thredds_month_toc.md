@@ -462,10 +462,10 @@ Old variables removed from new files:
 ## <a id='s1-18' />MIT_B
 cannot find old file for MIT_B
 Variables in new file:
-p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, usr, dlr, ulr, t_surf, z_boom_u, z_boom_cor_u, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, usr, albedo, dlr, ulr, t_surf, z_boom_u, z_boom_cor_u, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad
 
 New variables not in old files:
-p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, usr, dlr, ulr, t_surf, z_boom_u, z_boom_cor_u, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, usr, albedo, dlr, ulr, t_surf, z_boom_u, z_boom_cor_u, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad
 
 Old variables removed from new files:
 
