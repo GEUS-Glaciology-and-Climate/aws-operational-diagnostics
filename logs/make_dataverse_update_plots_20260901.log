@@ -8332,3 +8332,445 @@ Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
 Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
 Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
 Saved: plot_compilations/all_station_plots.md
+[main 426041bdf] Update dataset version comparison (Dataverse 39.0)
+ 1929 files changed, 14143 insertions(+), 1073 deletions(-)
+ create mode 100644 logs/make_dataverse_update_plots_20260820.log
+ create mode 100644 logs/make_dataverse_update_plots_20260821.log
+ create mode 100644 logs/make_dataverse_update_plots_20260822.log
+ create mode 100644 logs/make_dataverse_update_plots_20260823.log
+ create mode 100644 logs/make_dataverse_update_plots_20260824.log
+ create mode 100644 logs/make_dataverse_update_plots_20260825.log
+ create mode 100644 logs/make_dataverse_update_plots_20260826.log
+ create mode 100644 logs/make_dataverse_update_plots_20260827.log
+ create mode 100644 logs/make_dataverse_update_plots_20260828.log
+ create mode 100644 logs/make_dataverse_update_plots_20260829.log
+ create mode 100644 logs/make_dataverse_update_plots_20260830.log
+ create mode 100644 logs/make_dataverse_update_plots_20260831.log
+ create mode 100644 logs/make_dataverse_update_plots_20260901.log
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_8.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_9.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_10.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_11.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_12.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_13.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_14.png)
+![SUM](../figures/version_comparisons/V39_versus_thredds_hour/SUM_15.png)
+ 
+## SWC
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/SWC_hour.csv
+Variables in new file:
+p_u, t_u, t_l, rh_u, rh_u_wrt_ice_or_water, qh_u, rh_l, rh_l_wrt_ice_or_water, qh_l, wspd_u, wspd_l, wdir_u, wdir_l, wspd_x_u, wspd_y_u, wspd_x_l, wspd_y_l, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_boom_cor_l, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, t_i_9, t_i_10, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, d_t_i_9, d_t_i_10, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_0.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_1.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_2.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_3.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_4.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_5.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_6.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_7.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_8.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_9.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_10.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_11.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_12.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_13.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_14.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_15.png)
+![SWC](../figures/version_comparisons/V39_versus_thredds_hour/SWC_16.png)
+ 
+## TAS_A
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/TAS_A_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_0.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_1.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_2.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_3.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_4.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_5.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_6.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_7.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_8.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_9.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_10.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_11.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_12.png)
+![TAS_A](../figures/version_comparisons/V39_versus_thredds_hour/TAS_A_13.png)
+ 
+## TAS_L
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/TAS_L_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_0.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_1.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_2.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_3.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_4.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_5.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_6.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_7.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_8.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_9.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_10.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_11.png)
+![TAS_L](../figures/version_comparisons/V39_versus_thredds_hour/TAS_L_12.png)
+ 
+## TAS_U
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/TAS_U_hour.csv
+No data from TAS_U in the last year
+## THU_L
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/THU_L_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_0.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_1.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_2.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_3.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_4.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_5.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_6.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_7.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_8.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_9.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_10.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_11.png)
+![THU_L](../figures/version_comparisons/V39_versus_thredds_hour/THU_L_12.png)
+ 
+## THU_L2
+To https://github.com/GEUS-Glaciology-and-Climate/aws-operational-diagnostics.git
+   9eda104ca..426041bdf  main -> main
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/THU_L2_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_0.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_1.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_2.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_3.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_4.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_5.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_6.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_7.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_8.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_9.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_10.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_11.png)
+![THU_L2](../figures/version_comparisons/V39_versus_thredds_hour/THU_L2_12.png)
+ 
+## THU_U
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/THU_U_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_0.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_1.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_2.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_3.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_4.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_5.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_6.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_7.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_8.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_9.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_10.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_11.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_12.png)
+![THU_U](../figures/version_comparisons/V39_versus_thredds_hour/THU_U_13.png)
+ 
+## TUN
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/TUN_hour.csv
+Variables in new file:
+p_u, p_l, t_u, t_l, rh_u, rh_u_wrt_ice_or_water, qh_u, rh_l, rh_l_wrt_ice_or_water, qh_l, wspd_u, wspd_l, wdir_u, wdir_l, wspd_x_u, wspd_y_u, wspd_x_l, wspd_y_l, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dlhf_l, dshf_u, dshf_l, z_boom_u, z_boom_cor_u, z_boom_l, z_boom_cor_l, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, rainfall_l, rainfall_cor_l, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, t_i_9, t_i_10, t_i_11, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, d_t_i_9, d_t_i_10, d_t_i_11, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_0.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_1.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_2.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_3.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_4.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_5.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_6.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_7.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_8.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_9.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_10.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_11.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_12.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_13.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_14.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_15.png)
+![TUN](../figures/version_comparisons/V39_versus_thredds_hour/TUN_16.png)
+ 
+## UPE_L
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/UPE_L_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_0.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_1.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_2.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_3.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_4.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_5.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_6.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_7.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_8.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_9.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_10.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_11.png)
+![UPE_L](../figures/version_comparisons/V39_versus_thredds_hour/UPE_L_12.png)
+ 
+## UPE_U
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/UPE_U_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_0.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_1.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_2.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_3.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_4.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_5.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_6.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_7.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_8.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_9.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_10.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_11.png)
+![UPE_U](../figures/version_comparisons/V39_versus_thredds_hour/UPE_U_12.png)
+ 
+## WEG_B
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/WEG_B_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, usr, albedo, dlr, ulr, t_surf, z_boom_u, z_boom_cor_u, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_0.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_1.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_2.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_3.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_4.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_5.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_6.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_7.png)
+![WEG_B](../figures/version_comparisons/V39_versus_thredds_hour/WEG_B_8.png)
+ 
+## WEG_L
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/WEG_L_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_0.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_1.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_2.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_3.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_4.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_5.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_6.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_7.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_8.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_9.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_10.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_11.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_12.png)
+![WEG_L](../figures/version_comparisons/V39_versus_thredds_hour/WEG_L_13.png)
+ 
+## ZAC_A
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/ZAC_A_hour.csv
+Variables in new file:
+p_u, p_l, t_u, t_l, rh_u, rh_u_wrt_ice_or_water, qh_u, rh_l, rh_l_wrt_ice_or_water, qh_l, wspd_u, wspd_l, wdir_u, wdir_l, wspd_x_u, wspd_y_u, wspd_x_l, wspd_y_l, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dlhf_l, dshf_u, dshf_l, z_boom_u, z_boom_cor_u, z_boom_l, z_boom_cor_l, z_stake, z_surf_combined, snow_height, rainfall_u, rainfall_cor_u, rainfall_l, rainfall_cor_l, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, t_i_9, t_i_10, t_i_11, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, d_t_i_9, d_t_i_10, d_t_i_11, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_0.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_1.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_2.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_3.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_4.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_5.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_6.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_7.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_8.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_9.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_10.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_11.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_12.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_13.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_14.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_15.png)
+![ZAC_A](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_A_16.png)
+ 
+## ZAC_L
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/ZAC_L_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_0.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_1.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_2.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_3.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_4.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_5.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_6.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_7.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_8.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_9.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_10.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_11.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_12.png)
+![ZAC_L](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_L_13.png)
+ 
+## ZAC_U
+/mnt/ice/Baptiste/geussnow01/dataverse//V39/hour/ZAC_U_hour.csv
+Variables in new file:
+p_u, t_u, rh_u, rh_u_wrt_ice_or_water, qh_u, wspd_u, wdir_u, wspd_x_u, wspd_y_u, dsr, dsr_cor, usr, usr_cor, albedo, dlr, ulr, cc, t_surf, dlhf_u, dshf_u, z_boom_u, z_boom_cor_u, z_stake, z_stake_cor, z_pt, z_pt_cor, z_surf_combined, z_ice_surf, snow_height, rainfall_u, rainfall_cor_u, t_i_1, t_i_2, t_i_3, t_i_4, t_i_5, t_i_6, t_i_7, t_i_8, d_t_i_1, d_t_i_2, d_t_i_3, d_t_i_4, d_t_i_5, d_t_i_6, d_t_i_7, d_t_i_8, t_i_10m, tilt_x, tilt_y, rot_magnetic, rot_true, gps_lat, gps_lon, gps_alt, lat, lon, alt, batt_v, t_rad, p_i, t_i, rh_i, rh_i_wrt_ice_or_water, wspd_i, wdir_i, wspd_x_i, wspd_y_i
+
+New variables not in old files:
+
+
+Old variables removed from new files:
+
+ 
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_0.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_1.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_2.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_3.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_4.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_5.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_6.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_7.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_8.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_9.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_10.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_11.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_12.png)
+![ZAC_U](../figures/version_comparisons/V39_versus_thredds_hour/ZAC_U_13.png)
+ 
+Plotting snow height:   0%|          | 0/49 [00:00<?, ?it/s]Plotting snow height:   2%|▏         | 1/49 [00:00<00:11,  4.06it/s]Plotting snow height:   4%|▍         | 2/49 [00:00<00:09,  5.05it/s]Plotting snow height:   6%|▌         | 3/49 [00:00<00:08,  5.32it/s]Plotting snow height:  10%|█         | 5/49 [00:00<00:06,  7.25it/s]Plotting snow height:  12%|█▏        | 6/49 [00:00<00:05,  7.25it/s]Plotting snow height:  14%|█▍        | 7/49 [00:01<00:06,  6.82it/s]Plotting snow height:  16%|█▋        | 8/49 [00:01<00:05,  7.04it/s]Plotting snow height:  18%|█▊        | 9/49 [00:01<00:05,  7.06it/s]Plotting snow height:  20%|██        | 10/49 [00:01<00:06,  5.73it/s]Plotting snow height:  24%|██▍       | 12/49 [00:01<00:05,  6.28it/s]Plotting snow height:  27%|██▋       | 13/49 [00:02<00:05,  6.35it/s]Plotting snow height:  29%|██▊       | 14/49 [00:02<00:05,  6.33it/s]Plotting snow height:  33%|███▎      | 16/49 [00:02<00:03,  8.30it/s]Plotting snow height:  37%|███▋      | 18/49 [00:02<00:03,  8.55it/s]Plotting snow height:  39%|███▉      | 19/49 [00:02<00:03,  8.17it/s]Plotting snow height:  41%|████      | 20/49 [00:02<00:03,  7.57it/s]Plotting snow height:  43%|████▎     | 21/49 [00:02<00:03,  7.85it/s]Plotting snow height:  45%|████▍     | 22/49 [00:03<00:04,  6.72it/s]Plotting snow height:  47%|████▋     | 23/49 [00:03<00:03,  7.10it/s]Plotting snow height:  49%|████▉     | 24/49 [00:03<00:03,  6.58it/s]Plotting snow height:  51%|█████     | 25/49 [00:03<00:04,  5.93it/s]Plotting snow height:  53%|█████▎    | 26/49 [00:03<00:04,  5.16it/s]Plotting snow height:  55%|█████▌    | 27/49 [00:04<00:03,  5.53it/s]Plotting snow height:  57%|█████▋    | 28/49 [00:04<00:03,  5.69it/s]Plotting snow height:  61%|██████    | 30/49 [00:04<00:03,  5.26it/s]Plotting snow height:  63%|██████▎   | 31/49 [00:04<00:03,  5.13it/s]Plotting snow height:  65%|██████▌   | 32/49 [00:05<00:03,  5.24it/s]Plotting snow height:  67%|██████▋   | 33/49 [00:05<00:03,  4.58it/s]Plotting snow height:  73%|███████▎  | 36/49 [00:05<00:02,  6.49it/s]Plotting snow height:  76%|███████▌  | 37/49 [00:05<00:01,  6.64it/s]Plotting snow height:  78%|███████▊  | 38/49 [00:05<00:01,  6.69it/s]Plotting snow height:  82%|████████▏ | 40/49 [00:06<00:01,  7.65it/s]Plotting snow height:  84%|████████▎ | 41/49 [00:06<00:01,  6.57it/s]Plotting snow height:  86%|████████▌ | 42/49 [00:06<00:01,  5.36it/s]Plotting snow height:  88%|████████▊ | 43/49 [00:06<00:01,  5.67it/s]Plotting snow height:  90%|████████▉ | 44/49 [00:07<00:00,  5.67it/s]Plotting snow height:  96%|█████████▌| 47/49 [00:07<00:00,  7.28it/s]Plotting snow height:  98%|█████████▊| 48/49 [00:07<00:00,  7.15it/s]Plotting snow height: 100%|██████████| 49/49 [00:07<00:00,  6.50it/s]
+Plotting ablation:   0%|          | 0/29 [00:00<?, ?it/s]Plotting ablation:   7%|▋         | 2/29 [00:00<00:03,  8.00it/s]Plotting ablation:  10%|█         | 3/29 [00:00<00:03,  7.97it/s]Plotting ablation:  14%|█▍        | 4/29 [00:00<00:03,  8.05it/s]Plotting ablation:  21%|██        | 6/29 [00:00<00:02, 10.51it/s]Plotting ablation:  28%|██▊       | 8/29 [00:00<00:02, 10.07it/s]Plotting ablation:  34%|███▍      | 10/29 [00:01<00:01,  9.97it/s]Plotting ablation:  41%|████▏     | 12/29 [00:01<00:01,  9.49it/s]Plotting ablation:  48%|████▊     | 14/29 [00:01<00:01, 10.02it/s]Plotting ablation:  55%|█████▌    | 16/29 [00:01<00:01, 11.11it/s]Plotting ablation:  62%|██████▏   | 18/29 [00:01<00:01,  8.98it/s]Plotting ablation:  69%|██████▉   | 20/29 [00:02<00:00,  9.41it/s]Plotting ablation:  76%|███████▌  | 22/29 [00:02<00:00, 10.54it/s]Plotting ablation:  83%|████████▎ | 24/29 [00:02<00:00, 10.19it/s]Plotting ablation:  90%|████████▉ | 26/29 [00:02<00:00,  8.47it/s]Plotting ablation:  97%|█████████▋| 28/29 [00:02<00:00,  9.94it/s]Plotting ablation: 100%|██████████| 29/29 [00:02<00:00,  9.75it/s]
+Plotting t_u climatlogy:   0%|          | 0/49 [00:00<?, ?it/s]Plotting t_u climatlogy:   2%|▏         | 1/49 [00:00<00:06,  7.82it/s]Plotting t_u climatlogy:   4%|▍         | 2/49 [00:00<00:06,  7.81it/s]Plotting t_u climatlogy:   6%|▌         | 3/49 [00:00<00:05,  7.77it/s]Plotting t_u climatlogy:  10%|█         | 5/49 [00:00<00:04, 10.99it/s]Plotting t_u climatlogy:  14%|█▍        | 7/49 [00:00<00:04,  9.67it/s]Plotting t_u climatlogy:  18%|█▊        | 9/49 [00:00<00:03, 10.15it/s]Plotting t_u climatlogy:  22%|██▏       | 11/49 [00:01<00:06,  6.17it/s]Plotting t_u climatlogy:  24%|██▍       | 12/49 [00:01<00:05,  6.63it/s]Plotting t_u climatlogy:  29%|██▊       | 14/49 [00:01<00:04,  7.51it/s]Plotting t_u climatlogy:  35%|███▍      | 17/49 [00:01<00:03, 10.10it/s]Plotting t_u climatlogy:  39%|███▉      | 19/49 [00:02<00:02, 10.51it/s]Plotting t_u climatlogy:  43%|████▎     | 21/49 [00:02<00:03,  7.29it/s]Plotting t_u climatlogy:  45%|████▍     | 22/49 [00:02<00:03,  7.25it/s]Plotting t_u climatlogy:  49%|████▉     | 24/49 [00:02<00:03,  8.14it/s]Plotting t_u climatlogy:  51%|█████     | 25/49 [00:03<00:02,  8.35it/s]Plotting t_u climatlogy:  53%|█████▎    | 26/49 [00:03<00:02,  8.43it/s]Plotting t_u climatlogy:  57%|█████▋    | 28/49 [00:03<00:02,  9.52it/s]Plotting t_u climatlogy:  61%|██████    | 30/49 [00:03<00:01, 10.84it/s]Plotting t_u climatlogy:  65%|██████▌   | 32/49 [00:03<00:01,  9.58it/s]Plotting t_u climatlogy:  69%|██████▉   | 34/49 [00:03<00:01, 10.33it/s]Plotting t_u climatlogy:  73%|███████▎  | 36/49 [00:04<00:01, 10.48it/s]Plotting t_u climatlogy:  78%|███████▊  | 38/49 [00:04<00:01, 10.72it/s]Plotting t_u climatlogy:  82%|████████▏ | 40/49 [00:04<00:00, 11.94it/s]Plotting t_u climatlogy:  86%|████████▌ | 42/49 [00:04<00:00, 10.41it/s]Plotting t_u climatlogy:  90%|████████▉ | 44/49 [00:04<00:00, 10.32it/s]Plotting t_u climatlogy:  96%|█████████▌| 47/49 [00:04<00:00, 12.99it/s]Plotting t_u climatlogy: 100%|██████████| 49/49 [00:05<00:00, 12.31it/s]Plotting t_u climatlogy: 100%|██████████| 49/49 [00:05<00:00,  9.55it/s]
+Plotting rh_u climatlogy:   0%|          | 0/49 [00:00<?, ?it/s]Plotting rh_u climatlogy:   2%|▏         | 1/49 [00:00<00:10,  4.52it/s]Plotting rh_u climatlogy:   4%|▍         | 2/49 [00:00<00:08,  5.59it/s]Plotting rh_u climatlogy:   6%|▌         | 3/49 [00:00<00:07,  6.00it/s]Plotting rh_u climatlogy:  10%|█         | 5/49 [00:00<00:05,  8.80it/s]Plotting rh_u climatlogy:  12%|█▏        | 6/49 [00:00<00:05,  8.04it/s]Plotting rh_u climatlogy:  14%|█▍        | 7/49 [00:00<00:05,  7.79it/s]Plotting rh_u climatlogy:  18%|█▊        | 9/49 [00:01<00:04,  9.01it/s]Plotting rh_u climatlogy:  20%|██        | 10/49 [00:01<00:04,  9.04it/s]Plotting rh_u climatlogy:  24%|██▍       | 12/49 [00:01<00:03, 10.86it/s]Plotting rh_u climatlogy:  29%|██▊       | 14/49 [00:01<00:03, 10.47it/s]Plotting rh_u climatlogy:  35%|███▍      | 17/49 [00:01<00:02, 12.83it/s]Plotting rh_u climatlogy:  39%|███▉      | 19/49 [00:01<00:02, 12.52it/s]Plotting rh_u climatlogy:  43%|████▎     | 21/49 [00:02<00:02, 10.72it/s]Plotting rh_u climatlogy:  47%|████▋     | 23/49 [00:02<00:02, 10.28it/s]Plotting rh_u climatlogy:  51%|█████     | 25/49 [00:02<00:02, 10.07it/s]Plotting rh_u climatlogy:  55%|█████▌    | 27/49 [00:02<00:02, 10.43it/s]Plotting rh_u climatlogy:  59%|█████▉    | 29/49 [00:03<00:02,  6.68it/s]Plotting rh_u climatlogy:  61%|██████    | 30/49 [00:03<00:02,  7.06it/s]Plotting rh_u climatlogy:  63%|██████▎   | 31/49 [00:03<00:02,  7.46it/s]Plotting rh_u climatlogy:  65%|██████▌   | 32/49 [00:03<00:02,  7.19it/s]Plotting rh_u climatlogy:  67%|██████▋   | 33/49 [00:04<00:03,  5.17it/s]Plotting rh_u climatlogy:  73%|███████▎  | 36/49 [00:04<00:01,  7.74it/s]Plotting rh_u climatlogy:  78%|███████▊  | 38/49 [00:04<00:01,  8.68it/s]Plotting rh_u climatlogy:  82%|████████▏ | 40/49 [00:04<00:00, 10.25it/s]Plotting rh_u climatlogy:  86%|████████▌ | 42/49 [00:04<00:00,  9.40it/s]Plotting rh_u climatlogy:  90%|████████▉ | 44/49 [00:04<00:00,  9.46it/s]Plotting rh_u climatlogy:  96%|█████████▌| 47/49 [00:05<00:00, 12.26it/s]Plotting rh_u climatlogy: 100%|██████████| 49/49 [00:05<00:00, 12.06it/s]Plotting rh_u climatlogy: 100%|██████████| 49/49 [00:05<00:00,  9.23it/s]
+Plotting p_u climatlogy:   0%|          | 0/49 [00:00<?, ?it/s]Plotting p_u climatlogy:   2%|▏         | 1/49 [00:00<00:06,  7.99it/s]Plotting p_u climatlogy:   4%|▍         | 2/49 [00:00<00:05,  8.16it/s]Plotting p_u climatlogy:   6%|▌         | 3/49 [00:00<00:08,  5.52it/s]Plotting p_u climatlogy:  10%|█         | 5/49 [00:00<00:05,  8.49it/s]Plotting p_u climatlogy:  12%|█▏        | 6/49 [00:00<00:05,  7.91it/s]Plotting p_u climatlogy:  14%|█▍        | 7/49 [00:00<00:05,  7.69it/s]Plotting p_u climatlogy:  18%|█▊        | 9/49 [00:01<00:04,  8.79it/s]Plotting p_u climatlogy:  20%|██        | 10/49 [00:01<00:04,  8.94it/s]Plotting p_u climatlogy:  24%|██▍       | 12/49 [00:01<00:03, 10.71it/s]Plotting p_u climatlogy:  29%|██▊       | 14/49 [00:01<00:03, 10.28it/s]Plotting p_u climatlogy:  35%|███▍      | 17/49 [00:01<00:02, 12.51it/s]Plotting p_u climatlogy:  39%|███▉      | 19/49 [00:01<00:02, 12.33it/s]Plotting p_u climatlogy:  43%|████▎     | 21/49 [00:02<00:02, 10.67it/s]Plotting p_u climatlogy:  47%|████▋     | 23/49 [00:02<00:02, 10.21it/s]Plotting p_u climatlogy:  51%|█████     | 25/49 [00:02<00:02,  9.96it/s]Plotting p_u climatlogy:  55%|█████▌    | 27/49 [00:02<00:02, 10.41it/s]Plotting p_u climatlogy:  59%|█████▉    | 29/49 [00:02<00:01, 11.62it/s]Plotting p_u climatlogy:  63%|██████▎   | 31/49 [00:03<00:01, 10.99it/s]Plotting p_u climatlogy:  67%|██████▋   | 33/49 [00:03<00:01,  9.28it/s]Plotting p_u climatlogy:  73%|███████▎  | 36/49 [00:03<00:01, 10.88it/s]Plotting p_u climatlogy:  78%|███████▊  | 38/49 [00:03<00:00, 11.15it/s]Plotting p_u climatlogy:  82%|████████▏ | 40/49 [00:03<00:00, 12.31it/s]Plotting p_u climatlogy:  86%|████████▌ | 42/49 [00:04<00:00, 10.81it/s]Plotting p_u climatlogy:  90%|████████▉ | 44/49 [00:04<00:00, 10.58it/s]Plotting p_u climatlogy:  96%|█████████▌| 47/49 [00:04<00:00, 13.21it/s]Plotting p_u climatlogy: 100%|██████████| 49/49 [00:04<00:00, 12.80it/s]Plotting p_u climatlogy: 100%|██████████| 49/49 [00:04<00:00, 10.64it/s]
+Plotting wspd_u climatlogy:   0%|          | 0/49 [00:00<?, ?it/s]Plotting wspd_u climatlogy:   2%|▏         | 1/49 [00:00<00:13,  3.52it/s]Plotting wspd_u climatlogy:   4%|▍         | 2/49 [00:00<00:09,  4.73it/s]Plotting wspd_u climatlogy:   6%|▌         | 3/49 [00:00<00:08,  5.31it/s]Plotting wspd_u climatlogy:  10%|█         | 5/49 [00:00<00:05,  8.22it/s]Plotting wspd_u climatlogy:  12%|█▏        | 6/49 [00:00<00:05,  7.68it/s]Plotting wspd_u climatlogy:  14%|█▍        | 7/49 [00:01<00:05,  7.52it/s]Plotting wspd_u climatlogy:  18%|█▊        | 9/49 [00:01<00:06,  6.17it/s]Plotting wspd_u climatlogy:  20%|██        | 10/49 [00:01<00:05,  6.77it/s]Plotting wspd_u climatlogy:  24%|██▍       | 12/49 [00:01<00:04,  8.73it/s]Plotting wspd_u climatlogy:  29%|██▊       | 14/49 [00:01<00:03,  9.14it/s]Plotting wspd_u climatlogy:  35%|███▍      | 17/49 [00:02<00:02, 11.65it/s]Plotting wspd_u climatlogy:  39%|███▉      | 19/49 [00:02<00:02, 11.75it/s]Plotting wspd_u climatlogy:  43%|████▎     | 21/49 [00:02<00:02, 10.34it/s]Plotting wspd_u climatlogy:  47%|████▋     | 23/49 [00:02<00:02,  9.95it/s]Plotting wspd_u climatlogy:  51%|█████     | 25/49 [00:02<00:02,  9.67it/s]Plotting wspd_u climatlogy:  55%|█████▌    | 27/49 [00:03<00:02, 10.07it/s]Plotting wspd_u climatlogy:  59%|█████▉    | 29/49 [00:03<00:01, 11.03it/s]Plotting wspd_u climatlogy:  63%|██████▎   | 31/49 [00:03<00:01, 10.31it/s]Plotting wspd_u climatlogy:  67%|██████▋   | 33/49 [00:03<00:01,  8.42it/s]Plotting wspd_u climatlogy:  73%|███████▎  | 36/49 [00:03<00:01,  9.91it/s]Plotting wspd_u climatlogy:  78%|███████▊  | 38/49 [00:04<00:01, 10.41it/s]Plotting wspd_u climatlogy:  82%|████████▏ | 40/49 [00:04<00:00, 11.63it/s]Plotting wspd_u climatlogy:  86%|████████▌ | 42/49 [00:04<00:00, 10.38it/s]Plotting wspd_u climatlogy:  90%|████████▉ | 44/49 [00:04<00:00, 10.23it/s]Plotting wspd_u climatlogy:  96%|█████████▌| 47/49 [00:04<00:00, 12.91it/s]Plotting wspd_u climatlogy: 100%|██████████| 49/49 [00:05<00:00, 12.46it/s]Plotting wspd_u climatlogy: 100%|██████████| 49/49 [00:05<00:00,  9.72it/s]
+ERROR 1: PROJ: proj_create_from_database: Open of /home/bav/miniforge3/envs/bav/share/proj failed
+/home/bav/aws-operational-diagnostics/climatologies_transects.py:370: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7, 3 * 1.7))
+Saved : figures/climatology/snow_height_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/snow_height_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/snow_height_SCO_L_SCO_U.png
+Saved : figures/climatology/snow_height_KPC_L_KPC_U.png
+Saved : figures/climatology/snow_height_JAR_SWC.png
+Saved : figures/climatology/snow_height_TAS_L_TAS_A.png
+Saved : figures/climatology/snow_height_THU_L_THU_U.png
+Saved : figures/climatology/snow_height_NUK_L_NUK_U.png
+Saved : figures/climatology/snow_height_UPE_L_UPE_U.png
+Saved : figures/climatology/snow_height_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/ablation_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/ablation_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/ablation_SCO_L_SCO_U.png
+Saved : figures/climatology/ablation_KPC_L_KPC_U.png
+Saved : figures/climatology/ablation_JAR_SWC.png
+Saved : figures/climatology/ablation_TAS_L_TAS_A.png
+Saved : figures/climatology/ablation_THU_L_THU_U.png
+Saved : figures/climatology/ablation_NUK_L_NUK_U.png
+Saved : figures/climatology/ablation_UPE_L_UPE_U.png
+Saved : figures/climatology/ablation_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_u_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_u_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_u_SCO_L_SCO_U.png
+Saved : figures/climatology/t_u_KPC_L_KPC_U.png
+Saved : figures/climatology/t_u_JAR_SWC.png
+Saved : figures/climatology/t_u_TAS_L_TAS_A.png
+Saved : figures/climatology/t_u_THU_L_THU_U.png
+Saved : figures/climatology/t_u_NUK_L_NUK_U.png
+Saved : figures/climatology/t_u_UPE_L_UPE_U.png
+Saved : figures/climatology/t_u_ZAC_L_ZAC_U_ZAC_A.png
+Saved : figures/climatology/t_surf_KAN_T_KAN_L_KAN_M_KAN_U.png
+Saved : figures/climatology/t_surf_QAS_L_QAS_M_QAS_U.png
+Saved : figures/climatology/t_surf_SCO_L_SCO_U.png
+Saved : figures/climatology/t_surf_KPC_L_KPC_U.png
+Saved : figures/climatology/t_surf_JAR_SWC.png
+Saved : figures/climatology/t_surf_TAS_L_TAS_A.png
+Saved : figures/climatology/t_surf_THU_L_THU_U.png
+Saved : figures/climatology/t_surf_NUK_L_NUK_U.png
+Saved : figures/climatology/t_surf_UPE_L_UPE_U.png
+Saved : figures/climatology/t_surf_ZAC_L_ZAC_U_ZAC_A.png
+Saved: plot_compilations/all_station_plots.md
