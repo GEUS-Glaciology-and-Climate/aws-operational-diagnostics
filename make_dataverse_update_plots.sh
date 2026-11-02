@@ -6,8 +6,8 @@ CONDA=/home/bav/miniforge3/bin/conda
 PYTHON="/home/bav/miniforge3/envs/bav/bin/python"
 
 SKIP_THREDDS=${SKIP_THREDDS:-0}
-THREDDS_DIR="/media/ice/Baptiste/geussnow01/thredds-data"
-DATAVERSE_ROOT="/media/ice/Baptiste/geussnow01/dataverse"
+THREDDS_DIR="/mnt/ice/Baptiste/geussnow01/thredds-data"
+DATAVERSE_ROOT="/mnt/ice/Baptiste/geussnow01/dataverse"
 DIAG_DIR="$HOME/aws-operational-diagnostics"
 
 PID="doi:10.22008/FK2/IW73UU"
